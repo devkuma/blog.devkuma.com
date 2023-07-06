@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>면접의 기술 on 슬기로운 개발자 생활</title>
+    <link>https://blog.devkuma.com/tags/%EB%A9%B4%EC%A0%91%EC%9D%98-%EA%B8%B0%EC%88%A0/</link>
+    <description>Recent content in 면접의 기술 on 슬기로운 개발자 생활</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Sat, 01 Jul 2023 00:09:00 +0900</lastBuildDate><atom:link href="https://blog.devkuma.com/tags/%EB%A9%B4%EC%A0%91%EC%9D%98-%EA%B8%B0%EC%88%A0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>소프트웨어 개발자 면접시에 주의 사항</title>
+      <link>https://blog.devkuma.com/posts/20230701/4/</link>
+      <pubDate>Sat, 01 Jul 2023 00:09:00 +0900</pubDate>
+      
+      <guid>https://blog.devkuma.com/posts/20230701/4/</guid>
+      <description>어떤 회사에 입사를 하기 위해서는 이력서를 제출하고, 지원한 회사에서 서류를 검토를 한 후에 일단 적합하다고 판단이 들다면, 면접을 진행하여 한번 더 검증을 하게 된다. 이때 누구나 조금씩은 긴장하기 마련인데, 본인이 입사를 더 원하는 회사일 수록 더 그럴 것이다.
+여기서는 소프트웨어 개발자로 면접을 보면서 너무나 당연하면서도 쉽게 실수할 수 있는 것에 대해서 설명하고자 한다.
+질문에 대답부터 먼저 말해라! 면접관이 질문해서 대답을 하게 될 시에, 앞에 장황할 설명을 하고 마지막에 결론을 말하게 되면, 본인 스스로 함정에 빠질 수 있다.</description>
+    </item>
+    
+  </channel>
+</rss>
