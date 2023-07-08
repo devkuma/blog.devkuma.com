@@ -9,10 +9,10 @@
     <lastBuildDate>Sat, 01 Jul 2023 00:09:00 +0900</lastBuildDate><atom:link href="https://blog.devkuma.com/tags/%EA%B0%9C%EB%B0%9C%EC%9E%90/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>소프트웨어 개발자 면접시에 주의 사항</title>
-      <link>https://blog.devkuma.com/posts/20230701/4/</link>
+      <link>https://blog.devkuma.com/posts/10/</link>
       <pubDate>Sat, 01 Jul 2023 00:09:00 +0900</pubDate>
       
-      <guid>https://blog.devkuma.com/posts/20230701/4/</guid>
+      <guid>https://blog.devkuma.com/posts/10/</guid>
       <description>어떤 회사에 입사를 하기 위해서는 이력서를 제출하고, 지원한 회사에서 서류를 검토를 한 후에 일단 적합하다고 판단이 들다면, 면접을 진행하여 한번 더 검증을 하게 된다. 이때 누구나 조금씩은 긴장하기 마련인데, 본인이 입사를 더 원하는 회사일 수록 더 그럴 것이다.
 여기서는 소프트웨어 개발자로 면접을 보면서 너무나 당연하면서도 쉽게 실수할 수 있는 것에 대해서 설명하고자 한다.
 질문에 대답부터 먼저 말해라! 면접관이 질문해서 대답을 하게 될 시에, 앞에 장황할 설명을 하고 마지막에 결론을 말하게 되면, 본인 스스로 함정에 빠질 수 있다.</description>
@@ -20,10 +20,10 @@
     
     <item>
       <title>소프트웨어 개발자 입사 지원서(이력서) 작성시에 주의사항</title>
-      <link>https://blog.devkuma.com/posts/20230611/3/</link>
+      <link>https://blog.devkuma.com/posts/9/</link>
       <pubDate>Sun, 11 Jun 2023 16:30:00 +0900</pubDate>
       
-      <guid>https://blog.devkuma.com/posts/20230611/3/</guid>
+      <guid>https://blog.devkuma.com/posts/9/</guid>
       <description>입사 지원서는 새로운 회사에 입사하거나, 이직을 위해 제출하는 문서이다. 흔하게 이력서라고도 한다. 본인을 표현하는 문서이고, 지원하는 업무에 본인 적합하다는 것을 증명해야 하는 문서인데, 이를 몇장에 담기에는 결코 쉬운 일은 아닐 것이다.
 여기서는 소프트웨어 개발자가 이력서를 작성하면서, 너무나 당연하면서도, 누구나 쉽게 실수하거나 착각하게 되는 항목에 관해서 설명하고자 한다.
 자기소개는 업무 관련 내용만 넣어라! 신입 사원들이 자기소개서를 작성하면서 많이 실수하는 것 중의 하나는, 본인의 성장기나 가족 사항, 성격 등을 넣는 것이다. 예전에는 이게 맞았을 수도 있다.</description>
@@ -31,59 +31,59 @@
     
     <item>
       <title>[개발자 이야기 #6편] 일본 개발자 생활 3년만에 귀국</title>
-      <link>https://blog.devkuma.com/posts/20230115/6/</link>
+      <link>https://blog.devkuma.com/posts/8/</link>
       <pubDate>Sun, 15 Jan 2023 02:06:00 +0900</pubDate>
       
-      <guid>https://blog.devkuma.com/posts/20230115/6/</guid>
+      <guid>https://blog.devkuma.com/posts/8/</guid>
       <description>귀국 준비 일본에서 일한 지 3년. 길다면 길고 짧다면 짧을 수 있는 기간이 아닌가 싶다. 난 정확히 만 3년 만에 귀국하였다. 귀국해서는 왜 일본에서 잘 일하다가 한국으로 돌아왔는지 질문도 많이 받았다. 여러 가지 이유가 있겠지만, 일단 향수가 아닌가 싶다. 그때 당시에는 일본에서 잘 적응했기 때문에 부정했지만, 내 깊은 곳 한곳에서는 고국에 대한 그리움 있었던 거 같다. 그리고, 내 장래에 대한 걱정이었다. 아무리 내가 일본에서 잘하고 인정받았을 받았을지언정 난 그곳에서 외국인 노동자였다.</description>
     </item>
     
     <item>
       <title>[개발자 이야기 #5편] 내가 만난 이상한 일본인 #3 : 프로젝트 리더</title>
-      <link>https://blog.devkuma.com/posts/20230112/5/</link>
+      <link>https://blog.devkuma.com/posts/7/</link>
       <pubDate>Thu, 12 Jan 2023 02:49:00 +0900</pubDate>
       
-      <guid>https://blog.devkuma.com/posts/20230112/5/</guid>
+      <guid>https://blog.devkuma.com/posts/7/</guid>
       <description>프로젝트 리더 일본에서 개발 일을 하면서, 많은 일본인 개발자들을 만났는데, 오랜 시간이 흘려도 지금도 계속 연락을 하는 사람도 있는 반면, 대부분 자연스럽게 프로젝트가 종료되면서 자연스럽게 헤어지게 경우가 많았다. 헤어진 사람들은 내 머리 속에는 다들 좋은 사람들로 기억된다. 그런데, 매우 안좋게 헤어져 나쁘게 기억되는 사람도 몇 있었는데, 그중 한명이 내가 하던 프로젝트의 개발 리더였던 여자 개발자이다.
 그 여자의 간단히 외모를 설명하자면, 일본 시내에 나갔을 때 간혹 보이는 스타일로서, 심할 정도로 뚱뚱한 몸매에 웃을 때마다 누런 덧니를 보이며, 심한 입냄새뿐 아니라 온 몸에서 냄새가 나는 듯 했으며, 머리에서 흰 무언가가 떨어지고, 얼굴에서도 뭔가가 떨어지는 진짜 가까이하기에는 너무나 멀리하고 싶은 여자였다.</description>
     </item>
     
     <item>
       <title>[개발자 이야기 #4편] 내가 만난 이상한 일본인 #2 : 진정한 키보드 워리어</title>
-      <link>https://blog.devkuma.com/posts/20230111/4/</link>
+      <link>https://blog.devkuma.com/posts/6/</link>
       <pubDate>Wed, 11 Jan 2023 00:52:00 +0900</pubDate>
       
-      <guid>https://blog.devkuma.com/posts/20230111/4/</guid>
+      <guid>https://blog.devkuma.com/posts/6/</guid>
       <description>내가 예전에 일했던 곳은&amp;hellip; 먼저 이야기를 하기 전에 내가 일했던 곳에 설명하려고 한다. 일본에서 개발 업무를 한 지 2년 6개월도 되어가는 시점이 있었다. 그 한 곳에서만 1년 6개월 정도 있었던 걸로 기억한다.
 그곳은 한 50평 정도의 넓은 공간에 고객사 직원들과 동고동락하면서 프로젝트도 하고 회의도 하면서 여러 가지 문제가 있을 시 바로바로 대응을 할 수 있게 되는 구조로 되어 있었다. 아무래도 고객사 직원들과 같이 있다 보니 딴짓하기에는 여간 눈치가 보지 않을 수가 없었다.</description>
     </item>
     
     <item>
       <title>[개발자 이야기 #3편] 내가 만난 이상한 일본인 #1 : 공항 장애</title>
-      <link>https://blog.devkuma.com/posts/20230109/3/</link>
+      <link>https://blog.devkuma.com/posts/5/</link>
       <pubDate>Mon, 09 Jan 2023 02:09:00 +0900</pubDate>
       
-      <guid>https://blog.devkuma.com/posts/20230109/3/</guid>
+      <guid>https://blog.devkuma.com/posts/5/</guid>
       <description>여성 개발자와의 첫 만남 첫번째 프로젝트가 끝나고, 새로운 프로젝트를 새로 입사한 일본인 여성 개발자와 같이 투입이 되었다. 내가 기억하는 그 여성 개발자는 곁모습은 한국 사람과 비슷해 보였는데, 담배를 상당히 많이 폈다. 이분 매시간 마다 피기도 하고, 줄 담배도 잘 피기도 하였다. 그때는 나도 담배를 폈기 때문에 같이 피면서 여러가지로 대화를 해 보기도 했는데, 그렇게 좋지도 나쁜 이미지는 아니었던 사람이었덜 걸로 기억한다.
 이 여성 개발자와 프로젝트 진행 프로젝트 진행에 앞서 발주처의 고객과 우리 측은 이 여성분과 PM 한명, 그리고 나까지 해서 미팅을 하게 되었다.</description>
     </item>
     
     <item>
       <title>[개발자 이야기 #2편] 일본에서의 개발자로 살아남기 : 필사적인 면접</title>
-      <link>https://blog.devkuma.com/posts/20230108/2/</link>
+      <link>https://blog.devkuma.com/posts/4/</link>
       <pubDate>Sun, 08 Jan 2023 22:43:00 +0900</pubDate>
       
-      <guid>https://blog.devkuma.com/posts/20230108/2/</guid>
+      <guid>https://blog.devkuma.com/posts/4/</guid>
       <description>일본어 못하는 개발자 개발자로서 첫 직장 생활을 일본에서 시작한 나는 초기에는 일본어를 무지 못했다. 어느 정도였냐면, SI 업체로써 현장 면접을 볼 때, 면접관이 하는 말을 거의 못 알아듣는 건 당연했고, 앵무새처럼 외운 내용을 줄줄이 울프뿐, 말을 거의 못 했다. 그도 그럴만한데 일본어를 10개월 공부하고 넘어갔으니, 유창하게 일본어를 할 수 없는 건 당연한 거였을 것이다.
 한번은 일본인 면접관이 내가 일본어로 더듬더듬 말하는 것을 듣고는 나를 앞에 두고 &amp;ldquo;현장에 투입해도 괜찮을까?&amp;ldquo;라고 혼잣말하듯이 말을 하였다.</description>
     </item>
     
     <item>
       <title>[개발자 이야기 #1편] 내가 개발자가 되기 까지... : 첫 직장을 일본에서 시작</title>
-      <link>https://blog.devkuma.com/posts/20230108/1/</link>
+      <link>https://blog.devkuma.com/posts/2/</link>
       <pubDate>Sun, 08 Jan 2023 19:19:00 +0900</pubDate>
       
-      <guid>https://blog.devkuma.com/posts/20230108/1/</guid>
+      <guid>https://blog.devkuma.com/posts/2/</guid>
       <description>개발자가 되기 위한 내 학창 시절 초중고등 시절 난 공부를 매우 못했다. 안해서 못한건지 못해서 안한건지는 정확하게는 말 못하겠지만, 어째든 성적이 매우 안좋았다. 등수로 따지자면, 뒤에서 2번째였던 적도 있었는데, 당시 꼴찌었던 녀석이 운동부였다는 걸 감안하면, 내가 꼴찌라고 봐야 할거 같다. 지금 와서야 핑계를 대자면, 그때 당시에는 학교 공부를 왜 해야 하는지 알지 못했다. 그리고 내가 성적이 좋아져 등수가 높아지면, 누군가의 등수가 그 만큼 내려가야 한다는 것에 그 성적 등수 리그에 왠지 참여하고 싶지 않은 반항심도 있었던거 같다.</description>
     </item>
     
