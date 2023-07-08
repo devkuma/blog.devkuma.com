@@ -3,13 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.devkuma.com/categories/</loc>
-    <lastmod>2023-07-01T01:44:00+09:00</lastmod>
+    <lastmod>2023-07-09T01:33:00+09:00</lastmod>
   </url><url>
     <loc>https://blog.devkuma.com/posts/</loc>
-    <lastmod>2023-07-01T01:44:00+09:00</lastmod>
+    <lastmod>2023-07-09T01:33:00+09:00</lastmod>
   </url><url>
     <loc>https://blog.devkuma.com/tags/</loc>
-    <lastmod>2023-07-01T01:44:00+09:00</lastmod>
+    <lastmod>2023-07-09T01:33:00+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.devkuma.com/categories/%EC%83%9D%EA%B0%81%EC%A0%95%EB%A6%AC/</loc>
+    <lastmod>2023-07-09T01:33:00+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.devkuma.com/</loc>
+    <lastmod>2023-07-09T01:33:00+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.devkuma.com/tags/%ED%8B%B0%EC%8A%A4%ED%86%A0%EB%A6%AC/</loc>
+    <lastmod>2023-07-09T01:33:00+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.devkuma.com/posts/blog-moved-from-tistory/</loc>
+    <lastmod>2023-07-09T01:33:00+09:00</lastmod>
   </url><url>
     <loc>https://blog.devkuma.com/categories/%EA%B2%8C%EC%9E%84/</loc>
     <lastmod>2023-07-01T01:44:00+09:00</lastmod>
@@ -20,16 +32,10 @@
     <loc>https://blog.devkuma.com/posts/buy-minecraft/</loc>
     <lastmod>2023-07-01T01:44:00+09:00</lastmod>
   </url><url>
-    <loc>https://blog.devkuma.com/</loc>
-    <lastmod>2023-07-01T01:44:00+09:00</lastmod>
-  </url><url>
     <loc>https://blog.devkuma.com/tags/%EA%B0%9C%EB%B0%9C%EC%9E%90/</loc>
     <lastmod>2023-07-01T00:09:00+09:00</lastmod>
   </url><url>
     <loc>https://blog.devkuma.com/tags/%EB%A9%B4%EC%A0%91%EC%9D%98-%EA%B8%B0%EC%88%A0/</loc>
-    <lastmod>2023-07-01T00:09:00+09:00</lastmod>
-  </url><url>
-    <loc>https://blog.devkuma.com/categories/%EC%83%9D%EA%B0%81%EC%A0%95%EB%A6%AC/</loc>
     <lastmod>2023-07-01T00:09:00+09:00</lastmod>
   </url><url>
     <loc>https://blog.devkuma.com/tags/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4/</loc>
@@ -91,9 +97,6 @@
   </url><url>
     <loc>https://blog.devkuma.com/posts/passion-salary/</loc>
     <lastmod>2023-01-08T19:01:00+09:00</lastmod>
-  </url><url>
-    <loc>https://blog.devkuma.com/tags/%ED%8B%B0%EC%8A%A4%ED%86%A0%EB%A6%AC/</loc>
-    <lastmod>2023-01-07T17:56:00+09:00</lastmod>
   </url><url>
     <loc>https://blog.devkuma.com/posts/change-tistory-policy/</loc>
     <lastmod>2023-01-07T17:56:00+09:00</lastmod>
