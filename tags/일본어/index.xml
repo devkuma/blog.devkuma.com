@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>일본어 on 슬기로운 개발자 생활</title>
+    <link>https://blog.devkuma.com/tags/%EC%9D%BC%EB%B3%B8%EC%96%B4/</link>
+    <description>Recent content in 일본어 on 슬기로운 개발자 생활</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Sat, 09 Dec 2023 19:17:00 +0900</lastBuildDate><atom:link href="https://blog.devkuma.com/tags/%EC%9D%BC%EB%B3%B8%EC%96%B4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[일본어] 일상 단어와 비지니스 단어 비교</title>
+      <link>https://blog.devkuma.com/posts/japanese/3/</link>
+      <pubDate>Sat, 09 Dec 2023 19:17:00 +0900</pubDate>
+      
+      <guid>https://blog.devkuma.com/posts/japanese/3/</guid>
+      <description> 日常のことば ビジネスのことば 今日 (きょう) 本日 (ほんじつ) 昨日 (きのう) 昨日 (さくじつ) 明日 (あした) 明日 (みょうにち) この間 (あいだ) 先日 (せんじつ) 今 ただ今 あとで 後 (のち)ほど さっき 先 (さき)ほど これからも 今後 (こんご)とも とても、すごく 非常に 本当に 誠 (まこと)に 少し、ちょっと 少々 (しょうしょう) </description>
+    </item>
+    
+    <item>
+      <title>[일본어] 한자 법칙</title>
+      <link>https://blog.devkuma.com/posts/japanese/2/</link>
+      <pubDate>Sat, 09 Dec 2023 19:11:00 +0900</pubDate>
+      
+      <guid>https://blog.devkuma.com/posts/japanese/2/</guid>
+      <description>두음법칙 1. 두음에「ㄱ(ㄲ), ㅋ, ㅎ」이 올때는 「ㅋ(か행)」으로 읽는다. 예) 가(家) ☞ 카(か) / 쾌(快) ☞ 카이(かい) / 하(夏) ☞ 카(か)
+2. 두음에 「ㄴ」이 올 때는 「ㄴ(な행)」으로 읽는다 예) 내(內) ☞ 나이(ない) / 남(南) ☞ 난(なん)
+3. 두음에 「ㄷ,ㅌ」이 올 때는 「ㅌ(た행)」으로 읽는다 예) 다(多) ☞ 타(た) / 달(達) ☞ 타쓰(たつ) / 탄(誕) ☞ 탄(たん)
+4. 두음에 「ㄹ」이 올 때는 「ㄹ(ら행)」으로 읽는다 예) 락(樂) ☞ 라쿠(らく) / 래(來) ☞ 라이(らい) / 론(論) ☞ 론(ろん)</description>
+    </item>
+    
+    <item>
+      <title>[일본어] 54가지 속담 모음</title>
+      <link>https://blog.devkuma.com/posts/japanese/1/</link>
+      <pubDate>Sat, 09 Dec 2023 18:10:00 +0900</pubDate>
+      
+      <guid>https://blog.devkuma.com/posts/japanese/1/</guid>
+      <description>『문화로 배우는 이야기 일본어』에 나오는 일본 속담 [諺(ことわざ) : 속담]
+一。論語(ろんご)よみの 論語(ろんご)知(し)らず。 논어를 읽는다는 사람이 논어를 모른다.
+‘소리내어 읽기는 하지만 그 뜻을 제대로 이해하지 못한다’는 비웃음 담은 속담.
+論語(ろんご) : 논어 二。大鼓判(たいこげん)を 押(お)す。 북처럼 큰 도장으로 찍는다.
+장담하다. 확실하다는 의미로 쓰임.
+大鼓(たいこ) : 큰북 判(げん) : 도장 大鼓判(たいこげん) : 북처럼 큰 도장 押(お)す : 누르다. 찍다. 三。大鼓判(たいこげん)を 叩(たた)く。 큰북을 치다.
+맞장구치며 비위를 맞추다.
+叩(たた)く : 치다, 두드리다. 四。可愛(かわい)い 子(こ)には 旅(たび)を させよ。 귀여운 아이는 여행을 시켜라.</description>
+    </item>
+    
+  </channel>
+</rss>
