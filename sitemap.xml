@@ -2,19 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.devkuma.com/posts/japanese/3/</loc>
-    <lastmod>2023-12-09T19:17:00+09:00</lastmod>
-  </url><url>
     <loc>https://blog.devkuma.com/categories/</loc>
-    <lastmod>2023-12-09T19:17:00+09:00</lastmod>
+    <lastmod>2024-01-21T10:24:00+09:00</lastmod>
   </url><url>
     <loc>https://blog.devkuma.com/posts/</loc>
-    <lastmod>2023-12-09T19:17:00+09:00</lastmod>
+    <lastmod>2024-01-21T10:24:00+09:00</lastmod>
   </url><url>
     <loc>https://blog.devkuma.com/tags/</loc>
-    <lastmod>2023-12-09T19:17:00+09:00</lastmod>
+    <lastmod>2024-01-21T10:24:00+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.devkuma.com/posts/developer-story-7/</loc>
+    <lastmod>2024-01-21T10:24:00+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.devkuma.com/tags/%EA%B0%9C%EB%B0%9C%EC%9E%90/</loc>
+    <lastmod>2024-01-21T10:24:00+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.devkuma.com/categories/%EA%B0%9C%EB%B0%9C%EC%9E%90-%EC%9D%B4%EC%95%BC%EA%B8%B0/</loc>
+    <lastmod>2024-01-21T10:24:00+09:00</lastmod>
   </url><url>
     <loc>https://blog.devkuma.com/</loc>
+    <lastmod>2024-01-21T10:24:00+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.devkuma.com/tags/%ED%8C%80%EC%9E%A5/</loc>
+    <lastmod>2024-01-21T10:24:00+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.devkuma.com/categories/%EA%B2%BD%EC%A0%9C-%EC%9D%B4%EC%95%BC%EA%B8%B0/</loc>
+    <lastmod>2024-01-21T08:41:00+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.devkuma.com/tags/%EB%8C%80%EC%B6%9C/</loc>
+    <lastmod>2024-01-21T08:41:00+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.devkuma.com/tags/%EB%8C%80%EC%B6%9C-%EA%B8%88%EB%A6%AC/</loc>
+    <lastmod>2024-01-21T08:41:00+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.devkuma.com/tags/%EB%8C%80%EC%B6%9C-%EC%9A%A9%EC%96%B4/</loc>
+    <lastmod>2024-01-21T08:41:00+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.devkuma.com/tags/%EB%8C%80%EC%B6%9C-%EC%A2%85%EB%A5%98/</loc>
+    <lastmod>2024-01-21T08:41:00+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.devkuma.com/posts/stock-terms/</loc>
+    <lastmod>2024-01-21T08:41:00+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.devkuma.com/posts/japanese/3/</loc>
     <lastmod>2023-12-09T19:17:00+09:00</lastmod>
   </url><url>
     <loc>https://blog.devkuma.com/tags/%EC%9D%BC%EB%B3%B8%EC%96%B4/</loc>
@@ -44,6 +74,9 @@
     <loc>https://blog.devkuma.com/posts/coffee-etymology/</loc>
     <lastmod>2023-11-27T02:04:00+09:00</lastmod>
   </url><url>
+    <loc>https://blog.devkuma.com/tags/%EC%97%AD%EC%82%AC/</loc>
+    <lastmod>2023-11-27T02:01:00+09:00</lastmod>
+  </url><url>
     <loc>https://blog.devkuma.com/posts/coffee-history/</loc>
     <lastmod>2023-11-27T02:01:00+09:00</lastmod>
   </url><url>
@@ -65,9 +98,6 @@
     <loc>https://blog.devkuma.com/posts/buy-minecraft/</loc>
     <lastmod>2023-07-01T01:44:00+09:00</lastmod>
   </url><url>
-    <loc>https://blog.devkuma.com/tags/%EA%B0%9C%EB%B0%9C%EC%9E%90/</loc>
-    <lastmod>2023-07-01T00:09:00+09:00</lastmod>
-  </url><url>
     <loc>https://blog.devkuma.com/tags/%EB%A9%B4%EC%A0%91%EC%9D%98-%EA%B8%B0%EC%88%A0/</loc>
     <lastmod>2023-07-01T00:09:00+09:00</lastmod>
   </url><url>
@@ -83,34 +113,16 @@
     <loc>https://blog.devkuma.com/tags/%EC%9D%B4%EB%A0%A5%EC%84%9C/</loc>
     <lastmod>2023-06-11T16:30:00+09:00</lastmod>
   </url><url>
-    <loc>https://blog.devkuma.com/categories/%EA%B2%BD%EC%A0%9C-%EC%9D%B4%EC%95%BC%EA%B8%B0/</loc>
-    <lastmod>2023-03-12T22:02:00+09:00</lastmod>
-  </url><url>
     <loc>https://blog.devkuma.com/tags/%EC%A3%BC%ED%83%9D/</loc>
     <lastmod>2023-03-12T22:02:00+09:00</lastmod>
   </url><url>
     <loc>https://blog.devkuma.com/posts/house-type/</loc>
     <lastmod>2023-03-12T22:02:00+09:00</lastmod>
   </url><url>
-    <loc>https://blog.devkuma.com/tags/%EB%8C%80%EC%B6%9C/</loc>
-    <lastmod>2023-03-12T20:51:00+09:00</lastmod>
-  </url><url>
-    <loc>https://blog.devkuma.com/tags/%EB%8C%80%EC%B6%9C-%EA%B8%88%EB%A6%AC/</loc>
-    <lastmod>2023-03-12T20:51:00+09:00</lastmod>
-  </url><url>
-    <loc>https://blog.devkuma.com/tags/%EB%8C%80%EC%B6%9C-%EC%9A%A9%EC%96%B4/</loc>
-    <lastmod>2023-03-12T20:51:00+09:00</lastmod>
-  </url><url>
-    <loc>https://blog.devkuma.com/tags/%EB%8C%80%EC%B6%9C-%EC%A2%85%EB%A5%98/</loc>
-    <lastmod>2023-03-12T20:51:00+09:00</lastmod>
-  </url><url>
     <loc>https://blog.devkuma.com/posts/loan-terms/</loc>
     <lastmod>2023-03-12T20:51:00+09:00</lastmod>
   </url><url>
     <loc>https://blog.devkuma.com/posts/developer-story-6/</loc>
-    <lastmod>2023-01-15T02:06:00+09:00</lastmod>
-  </url><url>
-    <loc>https://blog.devkuma.com/categories/%EA%B0%9C%EB%B0%9C%EC%9E%90-%EC%9D%B4%EC%95%BC%EA%B8%B0/</loc>
     <lastmod>2023-01-15T02:06:00+09:00</lastmod>
   </url><url>
     <loc>https://blog.devkuma.com/tags/%EC%9D%BC%EB%B3%B8/</loc>

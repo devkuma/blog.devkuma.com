@@ -6,7 +6,25 @@
     <description>Recent content in Categories on 슬기로운 개발자 생활</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sat, 09 Dec 2023 19:17:00 +0900</lastBuildDate><atom:link href="https://blog.devkuma.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Jan 2024 10:24:00 +0900</lastBuildDate><atom:link href="https://blog.devkuma.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>개발자 이야기</title>
+      <link>https://blog.devkuma.com/categories/%EA%B0%9C%EB%B0%9C%EC%9E%90-%EC%9D%B4%EC%95%BC%EA%B8%B0/</link>
+      <pubDate>Sun, 21 Jan 2024 10:24:00 +0900</pubDate>
+      
+      <guid>https://blog.devkuma.com/categories/%EA%B0%9C%EB%B0%9C%EC%9E%90-%EC%9D%B4%EC%95%BC%EA%B8%B0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>경제 이야기</title>
+      <link>https://blog.devkuma.com/categories/%EA%B2%BD%EC%A0%9C-%EC%9D%B4%EC%95%BC%EA%B8%B0/</link>
+      <pubDate>Sun, 21 Jan 2024 08:41:00 +0900</pubDate>
+      
+      <guid>https://blog.devkuma.com/categories/%EA%B2%BD%EC%A0%9C-%EC%9D%B4%EC%95%BC%EA%B8%B0/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>일본어 공부</title>
       <link>https://blog.devkuma.com/categories/%EC%9D%BC%EB%B3%B8%EC%96%B4-%EA%B3%B5%EB%B6%80/</link>
@@ -40,24 +58,6 @@
       <pubDate>Sat, 01 Jul 2023 01:44:00 +0900</pubDate>
       
       <guid>https://blog.devkuma.com/categories/%EA%B2%8C%EC%9E%84-%EC%9D%B4%EC%95%BC%EA%B8%B0/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>경제 이야기</title>
-      <link>https://blog.devkuma.com/categories/%EA%B2%BD%EC%A0%9C-%EC%9D%B4%EC%95%BC%EA%B8%B0/</link>
-      <pubDate>Sun, 12 Mar 2023 22:02:00 +0900</pubDate>
-      
-      <guid>https://blog.devkuma.com/categories/%EA%B2%BD%EC%A0%9C-%EC%9D%B4%EC%95%BC%EA%B8%B0/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>개발자 이야기</title>
-      <link>https://blog.devkuma.com/categories/%EA%B0%9C%EB%B0%9C%EC%9E%90-%EC%9D%B4%EC%95%BC%EA%B8%B0/</link>
-      <pubDate>Sun, 15 Jan 2023 02:06:00 +0900</pubDate>
-      
-      <guid>https://blog.devkuma.com/categories/%EA%B0%9C%EB%B0%9C%EC%9E%90-%EC%9D%B4%EC%95%BC%EA%B8%B0/</guid>
       <description></description>
     </item>
     

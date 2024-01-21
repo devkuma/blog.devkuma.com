@@ -6,7 +6,19 @@
     <description>Recent content in 개발자 이야기 on 슬기로운 개발자 생활</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sun, 15 Jan 2023 02:06:00 +0900</lastBuildDate><atom:link href="https://blog.devkuma.com/categories/%EA%B0%9C%EB%B0%9C%EC%9E%90-%EC%9D%B4%EC%95%BC%EA%B8%B0/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Jan 2024 10:24:00 +0900</lastBuildDate><atom:link href="https://blog.devkuma.com/categories/%EA%B0%9C%EB%B0%9C%EC%9E%90-%EC%9D%B4%EC%95%BC%EA%B8%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>개발 팀장이 되면서... 생각했던 책임, 권한, 역할</title>
+      <link>https://blog.devkuma.com/posts/developer-story-7/</link>
+      <pubDate>Sun, 21 Jan 2024 10:24:00 +0900</pubDate>
+      
+      <guid>https://blog.devkuma.com/posts/developer-story-7/</guid>
+      <description>내 개발자 생활에 처음 팀장이라는 직책을 맞게 되었을 때, 많은 생각을 해야만 했다.
+단순히 팀원이었을 때는 내 할일만 하면 되는데, 팀장이 되니 팀을 대표하여 팀을 관리해야 하고, 팀원들을 챙겨야 하는 입장이 된다고 생각하니, 무엇을 어떻게 해야 할지, 여태 해보지 못한 것을 해야 하는다는 부담감이 많았던 걸로 기억한다.
+그때 당시에 내 생각을 정리했던 글을 찾게 되어, 부끄럽지만 이 글을 공개해 보려고 한다. ^^
+개발 1팀장의 책임, 권한, 역할 개발 1팀장의 책임 업무 목표의 명확화와 목표 달성 팀의 주요 과제에 주어진 목표를 명확하게 수립하고 달성을 하도록 한다.</description>
+    </item>
+    
     <item>
       <title>[개발자 이야기 #6편] 일본 개발자 생활 3년만에 귀국</title>
       <link>https://blog.devkuma.com/posts/developer-story-6/</link>
