@@ -6,7 +6,16 @@
     <description>Recent content in Categories on 슬기로운 개발자 생활</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sat, 03 Feb 2024 16:06:00 +0900</lastBuildDate><atom:link href="https://blog.devkuma.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Feb 2024 16:28:00 +0900</lastBuildDate><atom:link href="https://blog.devkuma.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>일반 상식</title>
+      <link>https://blog.devkuma.com/categories/%EC%9D%BC%EB%B0%98-%EC%83%81%EC%8B%9D/</link>
+      <pubDate>Sat, 03 Feb 2024 16:28:00 +0900</pubDate>
+      
+      <guid>https://blog.devkuma.com/categories/%EC%9D%BC%EB%B0%98-%EC%83%81%EC%8B%9D/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>좋은글</title>
       <link>https://blog.devkuma.com/categories/%EC%A2%8B%EC%9D%80%EA%B8%80/</link>
@@ -40,15 +49,6 @@
       <pubDate>Sat, 09 Dec 2023 19:17:00 +0900</pubDate>
       
       <guid>https://blog.devkuma.com/categories/%EC%9D%BC%EB%B3%B8%EC%96%B4-%EA%B3%B5%EB%B6%80/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>일반 상식</title>
-      <link>https://blog.devkuma.com/categories/%EC%9D%BC%EB%B0%98-%EC%83%81%EC%8B%9D/</link>
-      <pubDate>Mon, 27 Nov 2023 02:04:00 +0900</pubDate>
-      
-      <guid>https://blog.devkuma.com/categories/%EC%9D%BC%EB%B0%98-%EC%83%81%EC%8B%9D/</guid>
       <description></description>
     </item>
     

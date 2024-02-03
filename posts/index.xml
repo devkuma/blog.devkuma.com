@@ -6,7 +6,19 @@
     <description>Recent content in Posts on 슬기로운 개발자 생활</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sat, 03 Feb 2024 16:06:00 +0900</lastBuildDate><atom:link href="https://blog.devkuma.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Feb 2024 16:28:00 +0900</lastBuildDate><atom:link href="https://blog.devkuma.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>비타민의 모든 것</title>
+      <link>https://blog.devkuma.com/posts/vitamin/</link>
+      <pubDate>Sat, 03 Feb 2024 16:28:00 +0900</pubDate>
+      
+      <guid>https://blog.devkuma.com/posts/vitamin/</guid>
+      <description>비타민이란? 비타민(vitamin)은 우리 몸이 정상적으로 작동하기 위해 필요한 유기화합물 중 하나로, 작은 양만 있어도 중요한 기능을 수행합니다. 대부분의 경우에는 음식을 통해 섭취되며, 몸이 직접 생산하지 못하기 때문에 식이나 보충제를 통해 공급받아야 합니다.
+비타민은 여러 가지 기능을 하며, 주로 다음과 같은 역할을 합니다:
+대사 활동 촉진: 비타민은 탄수화물, 지방, 단백질 등의 영양소를 에너지로 변환하는 대사 활동을 도와줍니다.
+조직의 구조와 기능 유지: 일부 비타민은 피부, 뼈, 혈액, 근육 등의 조직의 구조와 기능을 유지하고 강화합니다.</description>
+    </item>
+    
     <item>
       <title>[시] 스며드는 것</title>
       <link>https://blog.devkuma.com/posts/permeating/1/</link>
