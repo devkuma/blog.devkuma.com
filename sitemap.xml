@@ -3,13 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.devkuma.com/categories/</loc>
-    <lastmod>2024-04-06T21:47:00+09:00</lastmod>
+    <lastmod>2024-04-06T23:46:00+09:00</lastmod>
   </url><url>
     <loc>https://blog.devkuma.com/posts/</loc>
-    <lastmod>2024-04-06T21:47:00+09:00</lastmod>
+    <lastmod>2024-04-06T23:46:00+09:00</lastmod>
   </url><url>
     <loc>https://blog.devkuma.com/tags/</loc>
-    <lastmod>2024-04-06T21:47:00+09:00</lastmod>
+    <lastmod>2024-04-06T23:46:00+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.devkuma.com/categories/%EA%B2%BD%EC%A0%9C-%EC%9D%B4%EC%95%BC%EA%B8%B0/</loc>
+    <lastmod>2024-04-06T23:46:00+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.devkuma.com/</loc>
+    <lastmod>2024-04-06T23:46:00+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.devkuma.com/tags/%EC%9D%80%ED%96%89/</loc>
+    <lastmod>2024-04-06T23:46:00+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.devkuma.com/posts/bank-vs-savings-bank/</loc>
+    <lastmod>2024-04-06T23:46:00+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.devkuma.com/tags/%EC%A0%80%EC%B6%95%EC%9D%80%ED%96%89/</loc>
+    <lastmod>2024-04-06T23:46:00+09:00</lastmod>
   </url><url>
     <loc>https://blog.devkuma.com/posts/site/free-images/</loc>
     <lastmod>2024-04-06T21:47:00+09:00</lastmod>
@@ -18,9 +33,6 @@
     <lastmod>2024-04-06T21:47:00+09:00</lastmod>
   </url><url>
     <loc>https://blog.devkuma.com/tags/%EC%82%AC%EC%9D%B4%ED%8A%B8/</loc>
-    <lastmod>2024-04-06T21:47:00+09:00</lastmod>
-  </url><url>
-    <loc>https://blog.devkuma.com/</loc>
     <lastmod>2024-04-06T21:47:00+09:00</lastmod>
   </url><url>
     <loc>https://blog.devkuma.com/tags/%EC%9D%B4%EB%AF%B8%EC%A7%80/</loc>
@@ -43,9 +55,6 @@
   </url><url>
     <loc>https://blog.devkuma.com/categories/%EC%A2%8B%EC%9D%80%EA%B8%80/</loc>
     <lastmod>2024-02-03T16:06:00+09:00</lastmod>
-  </url><url>
-    <loc>https://blog.devkuma.com/categories/%EA%B2%BD%EC%A0%9C-%EC%9D%B4%EC%95%BC%EA%B8%B0/</loc>
-    <lastmod>2024-01-23T21:19:00+09:00</lastmod>
   </url><url>
     <loc>https://blog.devkuma.com/posts/year-end-tax-settlements/</loc>
     <lastmod>2024-01-23T21:19:00+09:00</lastmod>
