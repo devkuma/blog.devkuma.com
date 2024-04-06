@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>사이트 on 슬기로운 개발자 생활</title>
+    <link>https://blog.devkuma.com/tags/%EC%82%AC%EC%9D%B4%ED%8A%B8/</link>
+    <description>Recent content in 사이트 on 슬기로운 개발자 생활</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Sat, 06 Apr 2024 21:47:00 +0900</lastBuildDate><atom:link href="https://blog.devkuma.com/tags/%EC%82%AC%EC%9D%B4%ED%8A%B8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>무료 이미지 사이트</title>
+      <link>https://blog.devkuma.com/posts/site/free-images/</link>
+      <pubDate>Sat, 06 Apr 2024 21:47:00 +0900</pubDate>
+      
+      <guid>https://blog.devkuma.com/posts/site/free-images/</guid>
+      <description>문서를 쓰거나 블로그 등에 글을 쓰다보면 이미지가 필요할 때가 있다.
+인터넷에 떠도는 모든 이미지에는 저작권이 있기에 함부로 사용해서는 안될 것이다.
+여기서는 고화질이면서, 품질이 높은 이미지를 받은 받을 수 있는 사이트들을 소개한다.
+Unsplash https://unsplash.com/ko 어떤 프로젝트를 위해서든 다운로드 및 사용할 수 있는 아름다운 무료 이미지 및 사진입니다. 어떤 로열티 프리 또는 스톡 사진보다 좋습니다. pixabay https://pixabay.com/ko/ 로열티가 없는 최고의 이미지와 동영상 자료를 검색하세요. 특정한 상업적 목적으로도 이용 가능 ✓ 출처 안 밝혀도 됨 ✓ 누구나 자유롭게 이미지를 가져다쓸 수 있다.</description>
+    </item>
+    
+  </channel>
+</rss>
