@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>번역기 on 슬기로운 개발자 생활</title>
+    <link>https://blog.devkuma.com/tags/%EB%B2%88%EC%97%AD%EA%B8%B0/</link>
+    <description>Recent content in 번역기 on 슬기로운 개발자 생활</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Sat, 13 Apr 2024 22:17:00 +0900</lastBuildDate><atom:link href="https://blog.devkuma.com/tags/%EB%B2%88%EC%97%AD%EA%B8%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>번역기 사이트 모음</title>
+      <link>https://blog.devkuma.com/posts/site/translator/</link>
+      <pubDate>Sat, 13 Apr 2024 22:17:00 +0900</pubDate>
+      
+      <guid>https://blog.devkuma.com/posts/site/translator/</guid>
+      <description>간혹 외국어를 번역해서 봐야 하는 경우 있다.
+예전에는 번역기의 성능이 별로 안좋아서 잘 안되는 경우도 많았지만, 최근에는 AI에 도입 등으로 선능이 많이 좋아 진거 같다.
+여기서는 많이 사용하는 번역기들을 소개한다.
+구글 번역기 https://translate.google.co.kr/ 네이버 파파고 https://papago.naver.com DeepL 번역 https://www.deepl.com/translator kakao i 번역 https://translate.kakao.com/ Bing 번역기 https://www.bing.com/translator </description>
+    </item>
+    
+  </channel>
+</rss>
