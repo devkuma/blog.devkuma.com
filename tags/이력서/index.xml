@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>이력서 on 슬기로운 개발자 생활</title>
+    <link>https://blog.devkuma.com/tags/%EC%9D%B4%EB%A0%A5%EC%84%9C/</link>
+    <description>Recent content in 이력서 on 슬기로운 개발자 생활</description>
+    <generator>Hugo</generator>
+    <language>ko</language>
+    <lastBuildDate>Sun, 11 Jun 2023 16:30:00 +0900</lastBuildDate>
+    <atom:link href="https://blog.devkuma.com/tags/%EC%9D%B4%EB%A0%A5%EC%84%9C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>소프트웨어 개발자 입사 지원서(이력서) 작성시에 주의사항</title>
+      <link>https://blog.devkuma.com/posts/developer-resume-caution/</link>
+      <pubDate>Sun, 11 Jun 2023 16:30:00 +0900</pubDate>
+      <guid>https://blog.devkuma.com/posts/developer-resume-caution/</guid>
+      <description>&lt;p&gt;입사 지원서는 새로운 회사에 입사하거나, 이직을 위해 제출하는 문서이다. 흔하게 이력서라고도 한다. 본인을 표현하는 문서이고, 지원하는 업무에 본인 적합하다는 것을 증명해야 하는 문서인데, 이를 몇장에 담기에는 결코 쉬운 일은 아닐 것이다.&lt;/p&gt;&#xA;&lt;p&gt;여기서는 소프트웨어 개발자가 이력서를 작성하면서, 너무나 당연하면서도, 누구나 쉽게 실수하거나 착각하게 되는 항목에 관해서 설명하고자 한다.&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h2 id=&#34;자기소개는-업무-관련-내용만-넣어라&#34; class=&#34;heading &#34;&gt;자기소개는 업무 관련 내용만 넣어라!&lt;a href=&#34;#%ec%9e%90%ea%b8%b0%ec%86%8c%ea%b0%9c%eb%8a%94-%ec%97%85%eb%ac%b4-%ea%b4%80%eb%a0%a8-%eb%82%b4%ec%9a%a9%eb%a7%8c-%eb%84%a3%ec%96%b4%eb%9d%bc&#34; aria-labelledby=&#34;자기소개는-업무-관련-내용만-넣어라&#34;&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;!-- &lt;i class=&#34;fas fa-link anchor&#34;&gt;&lt;/i&gt; --&gt;&#xA;        &lt;svg class=&#34;svg-inline--fa fas fa-link anchor&#34; fill=&#34;currentColor&#34; aria-hidden=&#34;true&#34; role=&#34;img&#34; viewBox=&#34;0 0 640 512&#34;&gt;&lt;use href=&#34;#fas-link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&amp;nbsp;&#xA;    &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;신입 사원들이 자기소개서를 작성하면서 많이 실수하는 것 중의 하나는, 본인의 성장기나 가족 사항, 성격 등을 넣는 것이다. 예전에는 이게 맞았을 수도 있다. 어떤 환경에 어떻게 살았는지를 사람의 인성을 표현하기 위해서 필요했을 수 있기 때문이다.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

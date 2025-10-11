@@ -1,0 +1,971 @@
+
+
+
+
+
+<!doctype html>
+<html lang="ko" class="no-js">
+    <head>
+
+<script src="/js/critical.bundle.min.8b80676a41018c1e1644d9ccdbb34f113985d369ab293c4f465d58780bc16a3a.js"
+         integrity="sha256-i4BnakEBjB4WRNnM27NPETmF02mrKTxPRl1YeAvBajo=" crossorigin="anonymous"></script><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.148.2">
+    <meta name="theme" content="Hinode 1.19.3">
+    
+
+
+
+
+
+    
+    
+<link rel="stylesheet" href="/css/main.min.5c89e9d67cf65457526735720e0e89e97276438ef4aac984fd160694503d420b.css" integrity="sha256-XInp1nz2VFdSZzVyDg6J6XJ2Q470qsmE/RYGlFA9Qgs=" crossorigin="anonymous">
+    
+        
+    
+    
+         
+        <link rel="preload" href="/fonts/inter-v12-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+
+
+
+    
+    
+    
+
+
+
+    
+
+
+
+
+    
+  <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <title>[개발자 이야기 #4편] 내가 만난 이상한 일본인 #2 : 진정한 키보드 워리어 - 슬기로운 개발자 생활 </title>
+    <meta name="description" content="내가 예전에 일했던 곳은… 먼저 이야기를 하기 전에 내가 일했던 곳에 설명하려고 한다. 일본에서 개발 업무를 한 지 2년 6개월도 되어가는 시점이 있었다. 그 한 곳에서만 1년 6개월 정도 있었던 걸로 기억한다.
+그곳은 한 50평 정도의 넓은 공간에 고객사 직원들과 동...">
+
+
+
+
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="[개발자 이야기 #4편] 내가 만난 이상한 일본인 #2 : 진정한 키보드 워리어">
+<meta property="og:description" content="내가 예전에 일했던 곳은… 먼저 이야기를 하기 전에 내가 일했던 곳에 설명하려고 한다. 일본에서 개발 업무를 한 지 2년 6개월도 되어가는 시점이 있었다. 그 한 곳에서만 1년 6개월 정도 있었던 걸로 기억한다.
+그곳은 한 50평 정도의 넓은 공간에 고객사 직원들과 동...">
+
+<meta property="og:url" content="https://blog.devkuma.com/posts/developer-story-4/">
+<meta property="og:site_name" content="슬기로운 개발자 생활">
+<meta property="article:published_time" content="2023-01-11T00:52:00+09:00">
+    <meta property="article:modified_time" content="2023-01-11T00:52:00+09:00">
+    <meta property="og:image" content="https://blog.devkuma.com/posts/developer/developer-story-4-1280x640.png">
+<meta property="og:image:alt" content="[개발자 이야기 #4편] 내가 만난 이상한 일본인 #2 : 진정한 키보드 워리어">
+
+
+
+<meta name="twitter:card" content="summary_large_image">
+
+
+<meta name="twitter:title" content="[개발자 이야기 #4편] 내가 만난 이상한 일본인 #2 : 진정한 키보드 워리어">
+<meta name="twitter:description" content="내가 예전에 일했던 곳은… 먼저 이야기를 하기 전에 내가 일했던 곳에 설명하려고 한다. 일본에서 개발 업무를 한 지 2년 6개월도 되어가는 시점이 있었다. 그 한 곳에서만 1년 6개월 정도 있었던 걸로 기억한다.
+그곳은 한 50평 정도의 넓은 공간에 고객사 직원들과 동...">
+<meta name="twitter:image" content="https://blog.devkuma.com/posts/developer/developer-story-4-1280x640.png">
+<meta name="twitter:image:alt" content="[개발자 이야기 #4편] 내가 만난 이상한 일본인 #2 : 진정한 키보드 워리어">
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+        "@id": "https://blog.devkuma.com/#/schema/organization/1",
+      "name": "Hinode",
+      "url": "https://blog.devkuma.com/",
+      "sameAs": [null,"https://github.com/gethinode/hinode"],
+      "logo": {
+          "@type": "ImageObject",
+          "@id": "https://blog.devkuma.com/#/schema/image/1",
+          "url": "https://blog.devkuma.com/img/logo512x512.png",
+          "width": 512 ,
+          "height": 512 ,
+          "caption": "Hinode"
+        },
+        "image": {
+          "@id": "https://blog.devkuma.com/#/schema/image/1"
+        }
+      },
+    {
+      "@type": "WebSite",
+      "@id": "https://blog.devkuma.com/#/schema/website/1",
+      "url": "https://blog.devkuma.com/",
+      "name": "슬기로운 개발자 생활",
+      "description": "Hinode is a clean documentation and blog theme for your Hugo site based on Bootstrap 5.",
+      "publisher": {
+          "@id": "https://blog.devkuma.com/#/schema/organization/1"
+        }
+      },
+    {
+      "@type": "WebPage",
+      "@id": "https://blog.devkuma.com/posts/developer-story-4/",
+      "url": "https://blog.devkuma.com/posts/developer-story-4/",
+      "name": "[개발자 이야기 #4편] 내가 만난 이상한 일본인 #2 : 진정한 키보드 워리어",
+      "description": "",
+      "isPartOf": {
+        "@id": "https://blog.devkuma.com/#/schema/website/1"
+      },
+      "about": {
+          "@id": "https://blog.devkuma.com/#/schema/organization/1"
+        },
+      "datePublished": "2023-01-11T00:52:00CET","dateModified": "2023-01-11T00:52:00CET","breadcrumb": {
+        "@id": "https://blog.devkuma.com/posts/developer-story-4/#/schema/breadcrumb/1"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://blog.devkuma.com/posts/developer-story-4/#/schema/image/2"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [{
+        "@type": "ReadAction", "target": ["https://blog.devkuma.com/posts/developer-story-4/"]
+      }]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://blog.devkuma.com/posts/developer-story-4/#/schema/breadcrumb/1",
+      "name": "Breadcrumbs",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position":  1 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://blog.devkuma.com/",
+          "url": "https://blog.devkuma.com/",
+          "name": "Home"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  2 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://blog.devkuma.com/posts/",
+          "url": "https://blog.devkuma.com/posts/",
+          "name": "Posts"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  3 ,
+        "item": {
+          "@id": "https://blog.devkuma.com/posts/developer-story-4/"
+          }
+        }]
+    },
+
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "ImageObject",
+          "@id": "https://blog.devkuma.com/posts/developer-story-4/#/schema/image/2",
+          "url": "https://blog.devkuma.com/posts/developer/developer-story-4-1280x640.png",
+          "contentUrl": "https://blog.devkuma.com/posts/developer/developer-story-4-1280x640.png",
+          "caption": "[개발자 이야기 #4편] 내가 만난 이상한 일본인 #2 : 진정한 키보드 워리어"
+        }
+      ]
+    }
+
+  ]
+}
+</script>
+
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-96x96_hu_312ba0e4ce85fbd5.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-96x96_hu_c4cde3187ba9c9bf.png">
+        <link rel="icon" type="image/png" sizes="48x48" href="/favicons/favicon-96x96_hu_2d7809b4cf1dc181.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicons/favicon-96x96_hu_2fd0b046bbf518bf.png">
+    
+
+</head>
+
+    <body>
+
+
+
+
+
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+    
+
+
+
+
+<div class="container-fluid fixed-top p-0">
+
+
+
+
+
+<nav class="navbar px-4 py-4 navbar-fs-6 navbar-md-fs bg-body navbar-fixed-top navbar-expand-md"
+        
+        
+        >
+        <div class="container-xxl p-0">
+            <div class="d-flex navbar-container">
+                
+                <div class="d-flex align-items-center">
+                            <button class="navbar-toggler collapsed p-0 mx-auto invisible fw-30" type="button">
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-ellipsis fa-fw"></i> -->
+        <svg class="svg-inline--fa fas fa-ellipsis fa-fw" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 448 512"><use href="#fas-ellipsis"></use></svg></button></div>
+                
+        
+                
+                <div class="width-100 d-flex align-items-center width-md-auto">
+                    <a class="navbar-brand mx-auto" href="/" aria-label="">
+    
+    
+
+
+<img class="img-fluid m-auto"
+            src="/img/logo_icon-2800x2800.png"
+             srcset="/img/logo_icon-576x576.webp 576w, /img/logo_icon-768x768.webp 768w, /img/logo_icon-992x992.webp 992w, /img/logo_icon-1200x1200.webp 1200w, /img/logo_icon-1400x1400.webp 1400w, /img/logo_icon-2800x2800.webp 2800w" sizes="100vw" height="30" width="30" alt="슬기로운 개발자 생활"></a>
+                </div>
+        
+                
+                <div class="d-flex align-items-center">
+                    <button class="navbar-toggler main-nav-toggler collapsed p-0" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbar-0-collapse"
+                        aria-controls="navbar-0" aria-expanded="false" aria-label="">
+                        <span class="toggler-icon top-bar emphasis"></span>
+                        <span class="toggler-icon middle-bar emphasis"></span>
+                        <span class="toggler-icon bottom-bar emphasis"></span>
+                    </button>
+                </div>
+            </div>
+    
+            <div class="navbar-collapse collapse" id="navbar-0-collapse">
+                
+                    <div class="d-flex flex-fill ms-md-3 mt-4 mt-md-0 me-md-3">
+    <form class="search flex-fill position-relative me-auto">
+        <input class="search-input form-control is-search" type="search" placeholder="" aria-label="" autocomplete="off" name="search-input">
+        <div class="search-suggestions shadow bg-body rounded d-none" data-no-results=""></div>
+    </form>
+</div>
+
+                <ul class="navbar-nav navbar-nav-scroll ms-auto">
+                    
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a 
+            class="nav-link" 
+            
+            data-nav="main" data-nav-main="home" 
+             href="/"
+            
+            
+            ><span class=" d-md-none ">Home</span>
+            
+            <span class=" d-none d-md-block">Home</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a 
+            class="nav-link" 
+            
+            data-nav="main" data-nav-main="posts" 
+             href="/posts/"
+            
+            
+            ><span class=" d-md-none ">Posts</span>
+            
+            <span class=" d-none d-md-block">Posts</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a 
+            class="nav-link" 
+            
+            data-nav="main" data-nav-main="tags" 
+             href="/tags"
+            
+            
+            ><span class=" d-md-none ">Tags</span>
+            
+            <span class=" d-none d-md-block">Tags</span>
+            
+        </a>
+    
+</li>
+    
+                    
+                    
+                    
+                        <li class="nav-item py-2 py-md-1 col-12 col-md-auto d-none d-md-block me-auto">
+        <div class="vr d-none d-md-flex h-100 mx-md-2"></div>
+    </li>
+    <li><hr class="dropdown-divider-bg"></li>
+                    
+                                    
+                    <li class="nav-link navbar-fs-6 navbar-md-fs d-flex mode-switch align-items-center" id="navbar-mode">
+    <input type="checkbox" class="checkbox navbar-mode-selector" id="navbar-mode-checkbox" aria-label="" />
+    <label class="label" for="navbar-mode-checkbox">
+        
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-sun fa-fw"></i> -->
+        <svg class="svg-inline--fa fas fa-sun fa-fw" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 512 512"><use href="#fas-sun"></use></svg>
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-moon fa-fw"></i> -->
+        <svg class="svg-inline--fa fas fa-moon fa-fw" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 384 512"><use href="#fas-moon"></use></svg>
+            <div class="ball"></div>
+        
+    </label>
+</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<main id="container" class="main">
+            
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container-xxl flex-fill p-4 px-xxl-0">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+            <div class="col col-lg-2 d-none d-lg-block sidebar-overflow sticky-top pt-5">
+                
+            </div>
+            <div class="col-12 col-md-9 col-lg-8 mb-5 p-4">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    
+
+        
+    
+
+
+
+
+    <nav aria-label="breadcrumb" class="d-sm-none">
+        <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="/posts/developer-story/">
+                        
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-angle-left "></i> -->
+        <svg class="svg-inline--fa fas fa-angle-left " fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 320 512"><use href="#fas-angle-left"></use></svg>&nbsp;&nbsp;개발자 이야기
+                    </a>
+                </li></ol>
+    </nav>
+
+    <nav aria-label="breadcrumb" class="d-none d-sm-block">
+        <ol class="breadcrumb">
+                
+                <li class="breadcrumb-item"><a href="/posts/">Posts</a></li>
+                
+                <li class="breadcrumb-item"><a href="/posts/developer-story/">개발자 이야기</a></li><li class="breadcrumb-item active" aria-current="page">
+                
+                
+                [개발자 이야기 #4편] 내가 만난 이상한 일본인 #2 : 진정한 키보드 워리어
+            </li>
+        </ol>
+    </nav>
+
+<h1 id="개발자-이야기-4편-내가-만난-이상한-일본인-2--진정한-키보드-워리어" class="display-4 pt-1">[개발자 이야기 #4편] 내가 만난 이상한 일본인 #2 : 진정한 키보드 워리어</h1>
+
+
+    <small class="text-body-secondary text-uppercase">
+        
+            
+                
+            &bull;
+        
+        5&nbsp;  &bull;
+        868&nbsp;
+    </small>
+
+
+<div class="mt-3">
+        <div class="d-none-dark">
+            <div class="hstack gap-1">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="개발자"
+        href="/tags/%EA%B0%9C%EB%B0%9C%EC%9E%90/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">개발자</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="일본"
+        href="/tags/%EC%9D%BC%EB%B3%B8/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">일본</span>
+        </span></a>&nbsp;
+
+                </div>
+        </div>
+        
+        <div class="d-none-light">
+            <div class="hstack gap-1">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="개발자"
+        href="/tags/%EA%B0%9C%EB%B0%9C%EC%9E%90/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">개발자</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="일본"
+        href="/tags/%EC%9D%BC%EB%B3%B8/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">일본</span>
+        </span></a>&nbsp;
+
+                </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="d-md-none pb-5">
+
+
+
+
+
+
+
+
+
+
+
+    
+        <div class="d-grid gap-2 mx-auto">
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label=""
+        href="#toc-collapse" class="btn btn-outline-secondary position-relative toc-button"
+         data-bs-toggle="collapse" aria-expanded="false" aria-controls="toc-collapse"role="button"
+        >
+        <span class="d-flex justify-content-between">
+            <span class="my-auto"></span>
+                <span class="align-self-center">
+                    
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-sort "></i> -->
+        <svg class="svg-inline--fa fas fa-sort " fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 320 512"><use href="#fas-sort"></use></svg>
+                </span>
+            
+        </span></a>
+</div>
+
+        <div class="collapse border bg-body-tertiary rounded p-1 navbar-nav-scroll" id="toc-collapse">
+            <small>
+                <div class="toc toc-panel text-body p-2">
+                        <a class="toc-item toc-level-1" href="/posts/developer-story-4/#내가-예전에-일했던-곳은">내가 예전에 일했던 곳은&hellip; &nbsp; </a>
+                        <a class="toc-item toc-level-1" href="/posts/developer-story-4/#화사-온-일본인-오타쿠">화사 온 일본인 오타쿠 &nbsp; </a>
+                        <a class="toc-item toc-level-1" href="/posts/developer-story-4/#진정한-키보드-워리어">진정한 키보드 워리어 &nbsp; </a>
+                        <a class="toc-item toc-level-1" href="/posts/developer-story-4/#시간이-지나-1년-후">시간이 지나 1년 후 &nbsp; </a>
+                        <a class="toc-item toc-level-1" href="/posts/developer-story-4/#드디어-안녕">드디어 안녕 &nbsp; </a>
+                </div>
+            </small>
+        </div>
+</div>
+
+                
+
+
+
+<div class="img-wrap mb-5"><img class="img-fluid rounded"
+            src="/posts/developer/developer-story-4-2800x1200.png"
+             fetchpriority="high" srcset="/posts/developer/developer-story-4-576x247.webp 576w, /posts/developer/developer-story-4-768x329.webp 768w, /posts/developer/developer-story-4-992x425.webp 992w, /posts/developer/developer-story-4-1200x514.webp 1200w, /posts/developer/developer-story-4-1400x600.webp 1400w, /posts/developer/developer-story-4-2800x1200.webp 2800w" sizes="100vw" height="1200" width="2800" alt="[개발자 이야기 #4편] 내가 만난 이상한 일본인 #2 : 진정한 키보드 워리어"></div>
+
+
+
+
+<h2 id="내가-예전에-일했던-곳은" class="heading ">내가 예전에 일했던 곳은&hellip;<a href="#%eb%82%b4%ea%b0%80-%ec%98%88%ec%a0%84%ec%97%90-%ec%9d%bc%ed%96%88%eb%8d%98-%ea%b3%b3%ec%9d%80" aria-labelledby="내가-예전에-일했던-곳은">
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-link anchor"></i> -->
+        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 640 512"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>먼저 이야기를 하기 전에 내가 일했던 곳에 설명하려고 한다. 일본에서 개발 업무를 한 지 2년 6개월도 되어가는 시점이 있었다. 그 한 곳에서만 1년 6개월 정도 있었던 걸로 기억한다.</p>
+<p>그곳은 한 50평 정도의 넓은 공간에 고객사 직원들과 동고동락하면서 프로젝트도 하고 회의도 하면서 여러 가지 문제가 있을 시 바로바로 대응을 할 수 있게 되는 구조로 되어 있었다. 아무래도 고객사 직원들과 같이 있다 보니 딴짓하기에는 여간 눈치가 보지 않을 수가 없었다. 뭐, 조금씩 시간이 지나면서 눈치가 보여도 그냥 무시하는 경지에 오르기도 했지만 말이다.</p>
+
+
+
+
+
+<h2 id="화사-온-일본인-오타쿠" class="heading ">화사 온 일본인 오타쿠<a href="#%ed%99%94%ec%82%ac-%ec%98%a8-%ec%9d%bc%eb%b3%b8%ec%9d%b8-%ec%98%a4%ed%83%80%ec%bf%a0" aria-labelledby="화사-온-일본인-오타쿠">
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-link anchor"></i> -->
+        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 640 512"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>대략 근무 현장의 배경은 그렇고, 이제부터 내가 이야기하려는 사람은 현장에 들어와서 1년 정도 같이 있었던 일본인이었다. 이 일본인과 나는 갑을 병정에 &ldquo;병&quot;으로 다른 회사였지만, 고객사에서는 &ldquo;을&quot;에 해당하는 영업한 회사가 같았기에, 같은 회사로 알고 있는 상황이었다.</p>
+<p>암튼, 이 일본인의 생김새는 머리가 등치에 비해서 컸고, 통통한 몸매에 어깨는 조금 구부정하였다. 전형적인 일본의 오타쿠 같은 생김새였다. 나이는 그때 당시 34살인가? 35살인가? 했던 걸로 기억하는데, 별로 관심을 가지고 싶지 않았으니 정확한 나이를 물어보지도 않았다. 말도 거의? 아니 아예 없고, 자기 일만 묵묵히 하는 스타일이었다.</p>
+<p>처음에 이 사람이 들어왔을 때는 외롭게 보이기도 해서, 일부로 내가 같이 밥 먹으러 가자고 하고, 데리고 다니기도 했는데, 조금 지나니 뭔가 마음에 안 들었는지 대놓고 같이 먹기 싫다고 해서 알았다고 하고 나도 그때부터 무시하고 살았다.</p>
+
+
+
+
+
+<h2 id="진정한-키보드-워리어" class="heading ">진정한 키보드 워리어<a href="#%ec%a7%84%ec%a0%95%ed%95%9c-%ed%82%a4%eb%b3%b4%eb%93%9c-%ec%9b%8c%eb%a6%ac%ec%96%b4" aria-labelledby="진정한-키보드-워리어">
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-link anchor"></i> -->
+        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 640 512"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>그런데 문제는 그 사람이 온 지 한 3개월 후부터 발생하기 시작했다. 내 자리 바로 맞은 편에 그 사람이 앉아 있었는데, 갑자기 가끔 마우스 클릭 소리가 크게 나기 시작했다. 처음에는 소리가 큰 거 같아도 별로 신경을 안 썼는데, 그 소리가 점검 커지기 시작하더니 갑자기 책상에 마우스를 던지기까지 하였다. 그때야, 아! 이건 그냥 자연스럽게 나오는 소리가 아니구나! 일부로 그런다는 것을 그때 알았다. 조금 당황하기도 했지만, 뭐라고 하기에는 좀 그렇고 해서, 조심스럽게 &ldquo;무슨 일 있으세요?&ldquo;라고 살짝 물어봤다. 그랬더니 아무 대답 없이 그냥 묵묵히 일만 계속하는 게 아닌가. 무안했다.</p>
+<p>그러고 가끔 마우스를 책상에 쾅쾅 치기도 하고, 키보드를 소리가 크게 손바닥으로 치기도 하였다. 어느 정도는 고객 쪽에서 눈치를 채고 있었던 거 같지만, 별로 신경 쓰지 않으려는 눈치였다. 그러다가 조금 더 시간이 지나고 나서 이번에는 엄청나게 크게 키보드를 쾅~! 하고 책상에다가 내리쳤다. 난 바로 맞은 편에 앉았던 지라, 엄청 놀랐다. 그 큰 사무실에 있는 모든 사람이 다 여기를 주시하고 황당하다는 표정을 지었다.</p>
+<p>고객사 사람들은 나와 같은 회사로 알고 있을거라는 생각에 내가 왠지 더 민망하였다. 무슨 일이냐고 말을 걸어 보려고 하다가 순간 너무 놀란 마음에 그러지도 못하고 우선 대피하듯이 밖으로 나왔다. 생각난 건 아무래도 이 현장에 우리 쪽 담당 PM에게 알려야 할 거 같았다. 전화를 해서 상황을 대략만 설명하고, 상황이 너무 안 좋으니 와달라고 요청하니 서둘려 오겠다고 하였다.</p>
+<p>그러고, 다시 사무실에 들어가 보니 내가 나가고 2번이나 더 키보드를 책상에 던졌다고 옆에서 귀띔을 해줬다. 왠지 말 걸기도 뭐하고, 뭘 어떻게 해야 하나 망설이고 있는데, 연락했던 PM이 생각 외로 빨리 와주었다. 우선 그 사람을 불러서 고객사 직원과 PM이 회의실로 같이 들어갔다.</p>
+<p>한 30분 정도 지났을까 나오더니 PM이 다시 나만 따로 살짝 부르더니 상황을 다시 물었다. 난 차근히 내가 본 것과 들었던 것에 대해서 지금건 있었던 모든 일을 포함하여 상세히 설명하였다. 그러고 회의실에서 그 사람과 무슨 얘기가 오갔는지 내가 반대로 물었다. 그 사람은 고객사에 직원들이 시끄럽게 해서 화가 나서 그랬다고 한다. 그 말을 듣고 어찌나 어이가 없던지, 사무실 특정상 원래 전화 통화가 많은 곳이기도 했지만, 그렇게 심하게 시끄러운 정도는 아니었다. 오히려 농담도 하고 웃어가면서 일하고 분위기가 더 좋다고 생각할 정도였는데 말도 안 되는 핑계였다.</p>
+
+
+
+
+
+<h2 id="시간이-지나-1년-후" class="heading ">시간이 지나 1년 후<a href="#%ec%8b%9c%ea%b0%84%ec%9d%b4-%ec%a7%80%eb%82%98-1%eb%85%84-%ed%9b%84" aria-labelledby="시간이-지나-1년-후">
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-link anchor"></i> -->
+        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 640 512"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>그렇게 마우스와 키보드를 던지는 소리와 함께 한 1년 정도 되는 시점까지, 몇 번의 주의를 더 받았지만 좋아지기는커녕 점점 더 심해진 거 같았다. 여기 고객 입장에서는 우선 프로젝트의 진행을 해야 하므로 바로 자르지도 못하는 눈치이고, 오히려 거꾸로 이 사람을 고객사에서 더 눈치를 보는 상황이 돼버린 거 같았다.</p>
+<p>갑자기 설계서를 막 소리 나게 뿍뿍~ 찢어서 던져버리고 바로 화난 얼굴로 밖으로 나가버리지 않나, 도대체 뭐가 그렇게 항상 불만인 건지 알 수가 없었다. 진작에 그 사람이 먼저 현장이 별로라고 적반하장으로 나간다고 했었는데, 당장 다음 달부터 일할 사람이 없다고 고객사에서 한 달 더 해달라고 잡았다. 업무를 잘하는지 못하는지는 잘 모르지만, 기술 자체가 할 줄 아는 사람이 별로 많지 않아 진짜 할 사람이 없었다.</p>
+
+
+
+
+
+<h2 id="드디어-안녕" class="heading ">드디어 안녕<a href="#%eb%93%9c%eb%94%94%ec%96%b4-%ec%95%88%eb%85%95" aria-labelledby="드디어-안녕">
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-link anchor"></i> -->
+        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 640 512"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>한 달이 지나고 그 사람은 나가고 싶다는 간곡한(?) 요청으로 프로젝트가 종료되지도 않은 상태에 다음 사람에게 인수인계하고 나게 되었다. 그런데, 끝까지 와야하는 마지막 출근 날에는 안 왔다. 아침에 메일이 왔는데 전날까지 멀쩡한 사람이 갑자기 감기에 걸려 단다. 웃긴 건 그 사람 자리에 가보니까 본인 키보드랑 마우스 이런 거 다 가지고 갔고, 남은 건 쓰레기뿐이었다. 본인 물건은 싹 다 가져간 상태인 걸 보니 일부러 안 오려고 아예 작정을 한 듯했다.</p>
+<p>인수인계받은 사람한테 가서 이 사람 안 오는데 괜찮냐고 물어보니까, 안 괜찮다고 하였다. 일정상 그 사람 분량은 다한 거냐 물으니, 끝까지도 안 했다고 하였다. 제대로 인수인계는 받은 거냐고 물으니 그냥 그 사람하는 거 도와주는 식으로 해서 코드 조금 보고, 작성되어 있는 문서만 조금 본 상태라고 하였다. 억, 앞날이 캄캄했다. 유종의 미가 있는 건데 일을 끝맺음 없이 나가버리다니 정말 어이가 없을 뿐이었다.</p>
+<p>그 사람이 진행한 프로젝트에서, 일부분은 내가 담당하는 것이 있긴 했지만, 크게 상관없는 부분도 많았다. 그래도 넓게는 같은 프로젝트이기도 했고, 새로운 들어온 사람 역시 같은 영업 회사를 통해서 왔기 때문에 나중에 나한테도 불똥이 틸 수도 있는 상황이라고 생각되었다. 꼭 이런 이유만 아니었고, 그래도 사람과 사람 사이이니 내가 도와줄 수 있는 부분에 대해서는 도와줘야 하지 않을까 하는 생각에 이거저거 도와주었다.</p>
+<hr>
+<p>내가 만난 이상한 일본인 시리즈, 두번째 이야기를 이렇게 맡칩니다. 예전 생각을 하다 보니까, 지금 머리 속에 생각 나는 사람이 또 있네요. 원래 이 시리즈로 두편만 쓸려고 했는데, 다음에 현편을 더 써보도록 하겠습니다. ㅎ</p>
+
+
+                
+                
+<div class="row row-cols-2 mt-5 mb-3">
+    <div class="col">
+        <a class="next" href="/posts/developer-story-5/">
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-arrow-left "></i> -->
+        <svg class="svg-inline--fa fas fa-arrow-left " fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 448 512"><use href="#fas-arrow-left"></use></svg>&nbsp;[개발자 이야기 #5편] 내가 만난 이상한 일본인 #3 : 프로젝트 리더
+                </a></div>
+    <div class="col text-end">
+        <a class="previous" href="/posts/developer-story-3/">
+                    [개발자 이야기 #3편] 내가 만난 이상한 일본인 #1 : 공황 장애&nbsp;
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-arrow-right "></i> -->
+        <svg class="svg-inline--fa fas fa-arrow-right " fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 448 512"><use href="#fas-arrow-right"></use></svg>
+                </a></div>
+</div>
+
+            </div>
+            <div class="col col-md-3 col-lg-2 d-none d-md-block pt-5">
+                
+    
+
+
+<div class="toc toc-sidebar mb-5 my-md-0 mb-lg-5 p-3 text-body-secondary sticky-top">
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+
+
+    <strong class="d-block h6 my-2 pt-4">:</strong>
+    <nav class="toc">
+        
+        
+             
+        
+
+        
+            
+            <a  class="toc-item toc-level-1" href="/posts/developer-story-4/#내가-예전에-일했던-곳은">내가 예전에 일했던 곳은&hellip;</a>
+        
+            
+            <a  class="toc-item toc-level-1" href="/posts/developer-story-4/#화사-온-일본인-오타쿠">화사 온 일본인 오타쿠</a>
+        
+            
+            <a  class="toc-item toc-level-1" href="/posts/developer-story-4/#진정한-키보드-워리어">진정한 키보드 워리어</a>
+        
+            
+            <a  class="toc-item toc-level-1" href="/posts/developer-story-4/#시간이-지나-1년-후">시간이 지나 1년 후</a>
+        
+            
+            <a  class="toc-item toc-level-1" href="/posts/developer-story-4/#드디어-안녕">드디어 안녕</a>
+        
+
+        
+    </nav>
+
+
+
+    </div>
+
+            </div>
+        </div>
+    </div>
+</main><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8543127460401091"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8543127460401091"
+     data-ad-slot="3689386360"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<footer class="container-fluid footer text-center p-3">
+    <div class="container-xxl text-center">
+        <small>
+             © 2025 슬기로운 개발자 생활 .
+             |
+            
+                
+                
+            
+        </small>
+    </div>
+</footer>
+<div id="toast-container" class="toast-container position-fixed bottom-0 end-0 p-3">
+
+
+
+
+
+
+
+
+<div id="toast-copied-code-message" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+        <strong class="me-auto">슬기로운 개발자 생활</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label=""></button>
+    </div>
+    <div class="toast-body"> </div>
+</div>
+</div>
+<!-- SVG symbol map -->
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" display="none">
+        <symbol id="fas-ellipsis" ><path d="M8 256a56 56 0 1 1 112 0A56 56 0 1 1 8 256zm160 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm216-56a56 56 0 1 1 0 112 56 56 0 1 1 0-112z"/></symbol>
+<symbol id="fas-sun" ><path d="M361.5 1.2c5 2.1 8.6 6.6 9.6 11.9L391 121l107.9 19.8c5.3 1 9.8 4.6 11.9 9.6s1.5 10.7-1.6 15.2L446.9 256l62.3 90.3c3.1 4.5 3.7 10.2 1.6 15.2s-6.6 8.6-11.9 9.6L391 391 371.1 498.9c-1 5.3-4.6 9.8-9.6 11.9s-10.7 1.5-15.2-1.6L256 446.9l-90.3 62.3c-4.5 3.1-10.2 3.7-15.2 1.6s-8.6-6.6-9.6-11.9L121 391 13.1 371.1c-5.3-1-9.8-4.6-11.9-9.6s-1.5-10.7 1.6-15.2L65.1 256 2.8 165.7c-3.1-4.5-3.7-10.2-1.6-15.2s6.6-8.6 11.9-9.6L121 121 140.9 13.1c1-5.3 4.6-9.8 9.6-11.9s10.7-1.5 15.2 1.6L256 65.1 346.3 2.8c4.5-3.1 10.2-3.7 15.2-1.6zM160 256a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zm224 0a128 128 0 1 0 -256 0 128 128 0 1 0 256 0z"/></symbol>
+<symbol id="fas-moon" ><path d="M223.5 32C100 32 0 132.3 0 256S100 480 223.5 480c60.6 0 115.5-24.2 155.8-63.4c5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6c-96.9 0-175.5-78.8-175.5-176c0-65.8 36-123.1 89.3-153.3c6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"/></symbol>
+<symbol id="fas-angle-left" ><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></symbol>
+<symbol id="fas-sort" ><path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8L32 224c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8l256 0c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z"/></symbol>
+<symbol id="fas-link" ><path d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"/></symbol>
+<symbol id="fas-arrow-left" ><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></symbol>
+<symbol id="fas-arrow-right" ><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></symbol>
+    </svg>
+
+  
+    
+
+
+  
+
+
+<script src="/js/core.bundle-analytics.ko.min.6bef69f9eb49386f56c35b3c14a49935b4dca59cc0998448108e5cdc450c14fc.js"
+         data-category="analytics" integrity="sha256-a&#43;9p&#43;etJOG9Ww1s8FKSZNbTcpZzAmYRIEI5c3EUMFPw=" crossorigin="anonymous" async></script>
+
+<script src="/js/core.bundle.ko.min.784c201233502d3473e56a19f2454b8d656f2259aa8da82b3855fd671660ad3f.js"
+         integrity="sha256-eEwgEjNQLTRz5WoZ8kVLjWVvIlmqjagrOFX9ZxZgrT8=" crossorigin="anonymous" async></script></body>
+</html>

@@ -1,0 +1,989 @@
+
+
+
+
+
+<!doctype html>
+<html lang="ko" class="no-js">
+    <head>
+
+<script src="/js/critical.bundle.min.8b80676a41018c1e1644d9ccdbb34f113985d369ab293c4f465d58780bc16a3a.js"
+         integrity="sha256-i4BnakEBjB4WRNnM27NPETmF02mrKTxPRl1YeAvBajo=" crossorigin="anonymous"></script><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.148.2">
+    <meta name="theme" content="Hinode 1.19.3">
+    
+
+
+
+
+
+    
+    
+<link rel="stylesheet" href="/css/main.min.5c89e9d67cf65457526735720e0e89e97276438ef4aac984fd160694503d420b.css" integrity="sha256-XInp1nz2VFdSZzVyDg6J6XJ2Q470qsmE/RYGlFA9Qgs=" crossorigin="anonymous">
+    
+        
+    
+    
+         
+        <link rel="preload" href="/fonts/inter-v12-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+
+
+
+    
+    
+    
+
+
+
+    
+
+
+
+
+    
+  <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <title>[개발자 이야기 #3편] 내가 만난 이상한 일본인 #1 : 공황 장애 - 슬기로운 개발자 생활 </title>
+    <meta name="description" content="여성 개발자와의 첫 만남 첫번째 프로젝트가 끝나고, 새로운 프로젝트를 새로 입사한 일본인 여성 개발자와 같이 투입이 되었다. 내가 기억하는 그 여성 개발자는 곁모습은 한국 사람과 비슷해 보였는데, 담배를 상당히 많이 폈다. 이분 매시간 마다 피기도 하고, 줄 담배도 잘...">
+
+
+
+
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="[개발자 이야기 #3편] 내가 만난 이상한 일본인 #1 : 공황 장애">
+<meta property="og:description" content="여성 개발자와의 첫 만남 첫번째 프로젝트가 끝나고, 새로운 프로젝트를 새로 입사한 일본인 여성 개발자와 같이 투입이 되었다. 내가 기억하는 그 여성 개발자는 곁모습은 한국 사람과 비슷해 보였는데, 담배를 상당히 많이 폈다. 이분 매시간 마다 피기도 하고, 줄 담배도 잘...">
+
+<meta property="og:url" content="https://blog.devkuma.com/posts/developer-story-3/">
+<meta property="og:site_name" content="슬기로운 개발자 생활">
+<meta property="article:published_time" content="2023-01-09T02:09:00+09:00">
+    <meta property="article:modified_time" content="2023-01-09T02:09:00+09:00">
+    <meta property="og:image" content="https://blog.devkuma.com/posts/developer/developer-story-3-1280x640.png">
+<meta property="og:image:alt" content="[개발자 이야기 #3편] 내가 만난 이상한 일본인 #1 : 공황 장애">
+
+
+
+<meta name="twitter:card" content="summary_large_image">
+
+
+<meta name="twitter:title" content="[개발자 이야기 #3편] 내가 만난 이상한 일본인 #1 : 공황 장애">
+<meta name="twitter:description" content="여성 개발자와의 첫 만남 첫번째 프로젝트가 끝나고, 새로운 프로젝트를 새로 입사한 일본인 여성 개발자와 같이 투입이 되었다. 내가 기억하는 그 여성 개발자는 곁모습은 한국 사람과 비슷해 보였는데, 담배를 상당히 많이 폈다. 이분 매시간 마다 피기도 하고, 줄 담배도 잘...">
+<meta name="twitter:image" content="https://blog.devkuma.com/posts/developer/developer-story-3-1280x640.png">
+<meta name="twitter:image:alt" content="[개발자 이야기 #3편] 내가 만난 이상한 일본인 #1 : 공황 장애">
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+        "@id": "https://blog.devkuma.com/#/schema/organization/1",
+      "name": "Hinode",
+      "url": "https://blog.devkuma.com/",
+      "sameAs": [null,"https://github.com/gethinode/hinode"],
+      "logo": {
+          "@type": "ImageObject",
+          "@id": "https://blog.devkuma.com/#/schema/image/1",
+          "url": "https://blog.devkuma.com/img/logo512x512.png",
+          "width": 512 ,
+          "height": 512 ,
+          "caption": "Hinode"
+        },
+        "image": {
+          "@id": "https://blog.devkuma.com/#/schema/image/1"
+        }
+      },
+    {
+      "@type": "WebSite",
+      "@id": "https://blog.devkuma.com/#/schema/website/1",
+      "url": "https://blog.devkuma.com/",
+      "name": "슬기로운 개발자 생활",
+      "description": "Hinode is a clean documentation and blog theme for your Hugo site based on Bootstrap 5.",
+      "publisher": {
+          "@id": "https://blog.devkuma.com/#/schema/organization/1"
+        }
+      },
+    {
+      "@type": "WebPage",
+      "@id": "https://blog.devkuma.com/posts/developer-story-3/",
+      "url": "https://blog.devkuma.com/posts/developer-story-3/",
+      "name": "[개발자 이야기 #3편] 내가 만난 이상한 일본인 #1 : 공황 장애",
+      "description": "",
+      "isPartOf": {
+        "@id": "https://blog.devkuma.com/#/schema/website/1"
+      },
+      "about": {
+          "@id": "https://blog.devkuma.com/#/schema/organization/1"
+        },
+      "datePublished": "2023-01-09T02:09:00CET","dateModified": "2023-01-09T02:09:00CET","breadcrumb": {
+        "@id": "https://blog.devkuma.com/posts/developer-story-3/#/schema/breadcrumb/1"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://blog.devkuma.com/posts/developer-story-3/#/schema/image/2"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [{
+        "@type": "ReadAction", "target": ["https://blog.devkuma.com/posts/developer-story-3/"]
+      }]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://blog.devkuma.com/posts/developer-story-3/#/schema/breadcrumb/1",
+      "name": "Breadcrumbs",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position":  1 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://blog.devkuma.com/",
+          "url": "https://blog.devkuma.com/",
+          "name": "Home"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  2 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://blog.devkuma.com/posts/",
+          "url": "https://blog.devkuma.com/posts/",
+          "name": "Posts"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  3 ,
+        "item": {
+          "@id": "https://blog.devkuma.com/posts/developer-story-3/"
+          }
+        }]
+    },
+
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "ImageObject",
+          "@id": "https://blog.devkuma.com/posts/developer-story-3/#/schema/image/2",
+          "url": "https://blog.devkuma.com/posts/developer/developer-story-3-1280x640.png",
+          "contentUrl": "https://blog.devkuma.com/posts/developer/developer-story-3-1280x640.png",
+          "caption": "[개발자 이야기 #3편] 내가 만난 이상한 일본인 #1 : 공황 장애"
+        }
+      ]
+    }
+
+  ]
+}
+</script>
+
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-96x96_hu_312ba0e4ce85fbd5.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-96x96_hu_c4cde3187ba9c9bf.png">
+        <link rel="icon" type="image/png" sizes="48x48" href="/favicons/favicon-96x96_hu_2d7809b4cf1dc181.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicons/favicon-96x96_hu_2fd0b046bbf518bf.png">
+    
+
+</head>
+
+    <body>
+
+
+
+
+
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+    
+
+
+
+
+<div class="container-fluid fixed-top p-0">
+
+
+
+
+
+<nav class="navbar px-4 py-4 navbar-fs-6 navbar-md-fs bg-body navbar-fixed-top navbar-expand-md"
+        
+        
+        >
+        <div class="container-xxl p-0">
+            <div class="d-flex navbar-container">
+                
+                <div class="d-flex align-items-center">
+                            <button class="navbar-toggler collapsed p-0 mx-auto invisible fw-30" type="button">
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-ellipsis fa-fw"></i> -->
+        <svg class="svg-inline--fa fas fa-ellipsis fa-fw" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 448 512"><use href="#fas-ellipsis"></use></svg></button></div>
+                
+        
+                
+                <div class="width-100 d-flex align-items-center width-md-auto">
+                    <a class="navbar-brand mx-auto" href="/" aria-label="">
+    
+    
+
+
+<img class="img-fluid m-auto"
+            src="/img/logo_icon-2800x2800.png"
+             srcset="/img/logo_icon-576x576.webp 576w, /img/logo_icon-768x768.webp 768w, /img/logo_icon-992x992.webp 992w, /img/logo_icon-1200x1200.webp 1200w, /img/logo_icon-1400x1400.webp 1400w, /img/logo_icon-2800x2800.webp 2800w" sizes="100vw" height="30" width="30" alt="슬기로운 개발자 생활"></a>
+                </div>
+        
+                
+                <div class="d-flex align-items-center">
+                    <button class="navbar-toggler main-nav-toggler collapsed p-0" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbar-0-collapse"
+                        aria-controls="navbar-0" aria-expanded="false" aria-label="">
+                        <span class="toggler-icon top-bar emphasis"></span>
+                        <span class="toggler-icon middle-bar emphasis"></span>
+                        <span class="toggler-icon bottom-bar emphasis"></span>
+                    </button>
+                </div>
+            </div>
+    
+            <div class="navbar-collapse collapse" id="navbar-0-collapse">
+                
+                    <div class="d-flex flex-fill ms-md-3 mt-4 mt-md-0 me-md-3">
+    <form class="search flex-fill position-relative me-auto">
+        <input class="search-input form-control is-search" type="search" placeholder="" aria-label="" autocomplete="off" name="search-input">
+        <div class="search-suggestions shadow bg-body rounded d-none" data-no-results=""></div>
+    </form>
+</div>
+
+                <ul class="navbar-nav navbar-nav-scroll ms-auto">
+                    
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a 
+            class="nav-link" 
+            
+            data-nav="main" data-nav-main="home" 
+             href="/"
+            
+            
+            ><span class=" d-md-none ">Home</span>
+            
+            <span class=" d-none d-md-block">Home</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a 
+            class="nav-link" 
+            
+            data-nav="main" data-nav-main="posts" 
+             href="/posts/"
+            
+            
+            ><span class=" d-md-none ">Posts</span>
+            
+            <span class=" d-none d-md-block">Posts</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a 
+            class="nav-link" 
+            
+            data-nav="main" data-nav-main="tags" 
+             href="/tags"
+            
+            
+            ><span class=" d-md-none ">Tags</span>
+            
+            <span class=" d-none d-md-block">Tags</span>
+            
+        </a>
+    
+</li>
+    
+                    
+                    
+                    
+                        <li class="nav-item py-2 py-md-1 col-12 col-md-auto d-none d-md-block me-auto">
+        <div class="vr d-none d-md-flex h-100 mx-md-2"></div>
+    </li>
+    <li><hr class="dropdown-divider-bg"></li>
+                    
+                                    
+                    <li class="nav-link navbar-fs-6 navbar-md-fs d-flex mode-switch align-items-center" id="navbar-mode">
+    <input type="checkbox" class="checkbox navbar-mode-selector" id="navbar-mode-checkbox" aria-label="" />
+    <label class="label" for="navbar-mode-checkbox">
+        
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-sun fa-fw"></i> -->
+        <svg class="svg-inline--fa fas fa-sun fa-fw" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 512 512"><use href="#fas-sun"></use></svg>
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-moon fa-fw"></i> -->
+        <svg class="svg-inline--fa fas fa-moon fa-fw" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 384 512"><use href="#fas-moon"></use></svg>
+            <div class="ball"></div>
+        
+    </label>
+</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<main id="container" class="main">
+            
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container-xxl flex-fill p-4 px-xxl-0">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+            <div class="col col-lg-2 d-none d-lg-block sidebar-overflow sticky-top pt-5">
+                
+            </div>
+            <div class="col-12 col-md-9 col-lg-8 mb-5 p-4">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    
+
+        
+    
+
+
+
+
+    <nav aria-label="breadcrumb" class="d-sm-none">
+        <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="/posts/developer-story/">
+                        
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-angle-left "></i> -->
+        <svg class="svg-inline--fa fas fa-angle-left " fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 320 512"><use href="#fas-angle-left"></use></svg>&nbsp;&nbsp;개발자 이야기
+                    </a>
+                </li></ol>
+    </nav>
+
+    <nav aria-label="breadcrumb" class="d-none d-sm-block">
+        <ol class="breadcrumb">
+                
+                <li class="breadcrumb-item"><a href="/posts/">Posts</a></li>
+                
+                <li class="breadcrumb-item"><a href="/posts/developer-story/">개발자 이야기</a></li><li class="breadcrumb-item active" aria-current="page">
+                
+                
+                [개발자 이야기 #3편] 내가 만난 이상한 일본인 #1 : 공황 장애
+            </li>
+        </ol>
+    </nav>
+
+<h1 id="개발자-이야기-3편-내가-만난-이상한-일본인-1--공황-장애" class="display-4 pt-1">[개발자 이야기 #3편] 내가 만난 이상한 일본인 #1 : 공황 장애</h1>
+
+
+    <small class="text-body-secondary text-uppercase">
+        
+            
+                
+            &bull;
+        
+        5&nbsp;  &bull;
+        857&nbsp;
+    </small>
+
+
+<div class="mt-3">
+        <div class="d-none-dark">
+            <div class="hstack gap-1">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="개발자"
+        href="/tags/%EA%B0%9C%EB%B0%9C%EC%9E%90/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">개발자</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="일본"
+        href="/tags/%EC%9D%BC%EB%B3%B8/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">일본</span>
+        </span></a>&nbsp;
+
+                </div>
+        </div>
+        
+        <div class="d-none-light">
+            <div class="hstack gap-1">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="개발자"
+        href="/tags/%EA%B0%9C%EB%B0%9C%EC%9E%90/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">개발자</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="일본"
+        href="/tags/%EC%9D%BC%EB%B3%B8/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">일본</span>
+        </span></a>&nbsp;
+
+                </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="d-md-none pb-5">
+
+
+
+
+
+
+
+
+
+
+
+    
+        <div class="d-grid gap-2 mx-auto">
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label=""
+        href="#toc-collapse" class="btn btn-outline-secondary position-relative toc-button"
+         data-bs-toggle="collapse" aria-expanded="false" aria-controls="toc-collapse"role="button"
+        >
+        <span class="d-flex justify-content-between">
+            <span class="my-auto"></span>
+                <span class="align-self-center">
+                    
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-sort "></i> -->
+        <svg class="svg-inline--fa fas fa-sort " fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 320 512"><use href="#fas-sort"></use></svg>
+                </span>
+            
+        </span></a>
+</div>
+
+        <div class="collapse border bg-body-tertiary rounded p-1 navbar-nav-scroll" id="toc-collapse">
+            <small>
+                <div class="toc toc-panel text-body p-2">
+                        <a class="toc-item toc-level-1" href="/posts/developer-story-3/#여성-개발자와의-첫-만남">여성 개발자와의 첫 만남 &nbsp; </a>
+                        <a class="toc-item toc-level-1" href="/posts/developer-story-3/#이-여성-개발자와-프로젝트-진행">이 여성 개발자와 프로젝트 진행 &nbsp; </a>
+                        <a class="toc-item toc-level-1" href="/posts/developer-story-3/#한국인은-특유한-냄새가-난다">한국인은 특유한 냄새가 난다. &nbsp; </a>
+                        <a class="toc-item toc-level-1" href="/posts/developer-story-3/#공황-장애">공황 장애 &nbsp; </a>
+                        <a class="toc-item toc-level-1" href="/posts/developer-story-3/#남은-2주">남은 2주 &nbsp; </a>
+                        <a class="toc-item toc-level-1" href="/posts/developer-story-3/#마무리">마무리 &nbsp; </a>
+                </div>
+            </small>
+        </div>
+</div>
+
+                
+
+
+
+<div class="img-wrap mb-5"><img class="img-fluid rounded"
+            src="/posts/developer/developer-story-3-2800x1200.png"
+             fetchpriority="high" srcset="/posts/developer/developer-story-3-576x247.webp 576w, /posts/developer/developer-story-3-768x329.webp 768w, /posts/developer/developer-story-3-992x425.webp 992w, /posts/developer/developer-story-3-1200x514.webp 1200w, /posts/developer/developer-story-3-1400x600.webp 1400w, /posts/developer/developer-story-3-2800x1200.webp 2800w" sizes="100vw" height="1200" width="2800" alt="[개발자 이야기 #3편] 내가 만난 이상한 일본인 #1 : 공황 장애"></div>
+
+
+
+
+<h2 id="여성-개발자와의-첫-만남" class="heading ">여성 개발자와의 첫 만남<a href="#%ec%97%ac%ec%84%b1-%ea%b0%9c%eb%b0%9c%ec%9e%90%ec%99%80%ec%9d%98-%ec%b2%ab-%eb%a7%8c%eb%82%a8" aria-labelledby="여성-개발자와의-첫-만남">
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-link anchor"></i> -->
+        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 640 512"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>첫번째 프로젝트가 끝나고, 새로운 프로젝트를  새로 입사한 일본인 여성 개발자와 같이 투입이 되었다. 내가 기억하는 그 여성 개발자는 곁모습은 한국 사람과 비슷해 보였는데, 담배를 상당히 많이 폈다. 이분 매시간 마다 피기도 하고, 줄 담배도 잘 피기도 하였다. 그때는 나도 담배를 폈기 때문에 같이 피면서 여러가지로 대화를 해 보기도 했는데, 그렇게 좋지도 나쁜 이미지는 아니었던 사람이었덜 걸로 기억한다.</p>
+
+
+
+
+
+<h2 id="이-여성-개발자와-프로젝트-진행" class="heading ">이 여성 개발자와 프로젝트 진행<a href="#%ec%9d%b4-%ec%97%ac%ec%84%b1-%ea%b0%9c%eb%b0%9c%ec%9e%90%ec%99%80-%ed%94%84%eb%a1%9c%ec%a0%9d%ed%8a%b8-%ec%a7%84%ed%96%89" aria-labelledby="이-여성-개발자와-프로젝트-진행">
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-link anchor"></i> -->
+        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 640 512"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>프로젝트 진행에 앞서 발주처의 고객과 우리 측은 이 여성분과 PM 한명, 그리고 나까지 해서 미팅을 하게 되었다. 그 때 당시만 해도 난 일본어를 잘 하지는 못하는 상황이라 거의 듣기만 하였고, 이 여성분은 일본인이었기에 업무에 대해 상세히 나보다는 잘 들어줄거라 생각했다. 그러나, 미팅이 끝나고 우리끼리 다시 회의를 했는데, 그녀는 나랑 비슷하게 상세히 알아 듣지 못한거 같았고, 외국인인 내가 알아 들은 내용이 별반 차이가 없어 보였다. 오히려 프로젝트 기간이 짧다는 둥, 기술적으로 조금 막막하다는 둥, 여러가지로 불평만 늘어놓기 시작했다. 기술적으로는 내부 자체 모듈이 포함되어 있어서 나도 어려운 점이 있긴 했지만, 쌤플 코드가 이미 있어서 못 할것도 없어 보였다.</p>
+<p>업무에 대한 내용은 다행히 같이 회의에 들어갔던 PM 분이 내가 놓친 부분까지 잘 정리를 해줘서 어떤 작업인지 파악할 수 있었다. 업무 내용은 비슷한 2개의 화면 및 기능이 있어서 개발자 2명이서 나눠서 하면 충분히 될거 같았다. 그렇게 2개를 동시에 진행하기로 하고 작업에 착수 하였다.</p>
+
+
+
+
+
+<h2 id="한국인은-특유한-냄새가-난다" class="heading ">한국인은 특유한 냄새가 난다.<a href="#%ed%95%9c%ea%b5%ad%ec%9d%b8%ec%9d%80-%ed%8a%b9%ec%9c%a0%ed%95%9c-%eb%83%84%ec%83%88%ea%b0%80-%eb%82%9c%eb%8b%a4" aria-labelledby="한국인은-특유한-냄새가-난다">
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-link anchor"></i> -->
+        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 640 512"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>작업이 착수한 이후로 이 여성 개발자는 매시간 자리를 비우는 일이 허다했다. 내가 가끔 담배를 피려 가면, 이 여성 개발자는 여기로 자리를 옮겼나 싶을 정도로 항상 같은 자리의 소파에 앉아 있었고, 다른 일본인과 열심히 수달을 떨며 휴식을 취했다. 업무가 진행이 되고 있는게 맞는건지, 걱정이 조금 되긴 했지만, 내 입장에서는 내거만 하면 되지 않겠냐는 생각으로 난 빠르게 내 개발 업무만 진행하였다.</p>
+<p>한번은 내게 &ldquo;한국인은 특유한 냄새가 난다&quot;는 이상한 말을 한적도 있었다. 내가 김치 냄새냐고 물으니 또 아니란다. 실은 난 일본에 가서 초반에는 한동안 김치를 거의 먹지 않았다. 아니 구하기 힘들어서 못먹었다는게 맞는거 같다. 암튼, 한국인에게 이상한 냄새가 난다니 이게 뭔말인가? 이 여성 개발자는 순간 본인이 실수를 했다고 생각이 들었는지, 바로 향수 같이 좋은 냄새라고 말을 얼버 부렸다. 난 이때부터 이 여성 개발자가 마음에 들지 않기 시작했다.</p>
+
+
+
+
+
+<h2 id="공황-장애" class="heading ">공황 장애<a href="#%ea%b3%b5%ed%99%a9-%ec%9e%a5%ec%95%a0" aria-labelledby="공황-장애">
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-link anchor"></i> -->
+        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 640 512"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>프로젝트는 거의 많이 진행이 되어 갈 때쯤에 갑자기 이 여성 개발자는 출근을 하지 않았다. 하루가 지나고, 이틀이 되고, 삼일째가 되어도 오지 않았다. PM에게 따로 전달 받은 내용으로는 몸이 아파서라는 거였다. 하필이면 왜, 프로젝트가 막바지가 되어서 그런지, 조금 걱정이 되었다.</p>
+<p>그러고 출근을 안한지 일주일 째가 되었을 때, 그 여성 개발자가 회사를 상대로 고소를 해왔다고 한다. 고소 내용은 회사에서 스트레스를 줬고 그로 인해 공항 장애가 생겨 사람이 많은 전철은 탈수 없어 출근이 힘들다는 것이다. 이게 뭔말인가? PM은 내게 프로젝트 진행을 하면서 무슨 일이 있었지 물었다. 매번 자리를 많이 비운거 외에는 따로 특이 사항은 없었다고 하였다.</p>
+<p>그럼, 진행한 프로젝트 코드는? PM과 함께 그 여성 개발자의 컴퓨터를 켜고 찾아봤는데, 도저히 코드는 찾을 수가 없었다. 개발 도구에 최근에 열었던 프로젝트에도 없었다. 프로젝트 기간은 한달하고 보름 정도로 비교적 짧았는데, 일정이 종료되는 2주를 남겨두고 이런 사태가 발생한 것이다.  어떻게 해야 할지, 한숨 밖에 안나왔다. 이에 PM은 이 여성 개발자가 해야 했던 작업이 내가 한 작업과 비슷하니 빠르게 하여 일정에 맞춰 할 수 있지 않겠냐고 물었다. 비슷한건 맞지만, 아예 같은 것도 아니었기에 결코 쉬운 작업만은 아니었다. 일단 급한 불을 꺼야 하는 상황이라 어쩔수 없었다. 해야만 했다.</p>
+
+
+
+
+
+<h2 id="남은-2주" class="heading ">남은 2주<a href="#%eb%82%a8%ec%9d%80-2%ec%a3%bc" aria-labelledby="남은-2주">
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-link anchor"></i> -->
+        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 640 512"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>내 상황은 내가 담당할 개발 업무는 이미 끝냈고, 문서 작업을 하고 있는 도중이었기에 이 문서 작업만 남았다고 PM에게 말을 하니, 그 문서는 PM 자신이 써해주겠다고 하였다.  PM도 회의에 매번 참석했던지라 작업 내용을 충분히 인지하고 있어서 가능하기에 우리의 급변한 계획은 그대로 착수되었다.</p>
+<p>프로젝트 막바지로 들어가면서 중간 중간에 발주처의 고객과 회의가 있었는데, PM과 나만 매번 참석을 하니,  그 고객은 &ldquo;개발자가 분명 2명이 진행한다고 들었는데, 왜 계속 한분만 들어오시나요? 2명이 진행하고 있는게 맞나요?&rdquo; 라는 질문을 해왔다. 순간 뭐라고 말해야 할지 멍해졌는데, PM이 재빠르게 &ldquo;네! 2명 맞습니다. 여기 김상이 개발 책임자여서 김상만 참석해도 될거 같아, 개발자 대표로 김상만 오는 겁니다.&ldquo;라고 답했다. 개발자 2명에 무슨 책임자가 따로 있냐고 할거 같았지만, 그 고객은 &ldquo;아! 그렇군요. 김상이 개발을 잘하시나 보네요.&ldquo;라고 하면서 씩 한번 웃으면서 넘어가는 거였다. 아마 실은 알고 있는데, 알면서 속아주는게 아닐까 싶었다. 어쨌든 개발 일정만 맞춰 준다면 고객측에서는 굳이 문제를 삼지 않을 거 같았다.</p>
+<p>그러고, 일주일이 남은 시점에 프로젝트 골격은 얼축 나왔고, 세세한 부분만 잡아주면 코드가 완성되기 직전이었다. 문서도 일본어로 작성을 해야 하다 보니 외국인인 작성하는 거보다, 일본인인 PM이 작성하는 것이 헐씬 더 빨랐다. 그리고, PM이 프로젝트 경험도 많아서 그런지 문서도 깔끔히 잘 작성하였다.</p>
+
+
+
+
+
+<h2 id="마무리" class="heading ">마무리<a href="#%eb%a7%88%eb%ac%b4%eb%a6%ac" aria-labelledby="마무리">
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-link anchor"></i> -->
+        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 640 512"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>그렇게, 프로젝트가 마무리가 되는 일정에 맞춰 프로젝트 코드도 완성이 되었고, 같이 제출해야 하는 산출물 문서도 무사히 완료가 되어 우열곡절 속에 프로젝트는 성공적으로 마무리가 되었다. 이렇게 고생을 하여 끝낸 성공담은 회사 내부에 퍼졌고, 나는 또 다시 내 입지를 더 다지게 되는 기회가 되었다.</p>
+<p>아! 마지막으로 그 여성 개발자는 알고 보니 회사에서 정규직 계약을 하지도 않았던 계약 사원이었고, 증거 불충분으로 고소가 이루어지지도 않았다고 한다. 그 이후로 난 그 여성 개발자에 대한 소식을 듣지도 못했고, 아무도 그녀에 대한 언급도 하지 않았다.</p>
+<hr>
+<p>2편에 이어서 또, 3편을 작성했습니다. 제 이야기를 재미있게 읽어줄 분이 있을지 모르겠지만, 그래도 글을 쓰다보니 예전 추억이 생각나서 그런지 재미 있네요.ㅎ</p>
+<p>이왕 작성한 거 몇편이 나올지 모르겠지만, 끝까지 가봐도록 하겠습니다. 제가 쓴 글에 대한 주의 사항은 꽤 오래된 이야기를 머리 속에서 꺼내 작성을 하는 것이다 보니, 사실과 조금의 차이가 있을 수도 있습니다. 다만, 없는 얘기를 지어서 하지는 않았고, 큰 골격은 제 경험을 한 사실을 바탕으로 조금은 부풀려 진 내용과 잘못된 기억이 일부 포함될 수 있다는 점을 알아주시면 감사하겠습니다.</p>
+
+
+                
+                
+<div class="row row-cols-2 mt-5 mb-3">
+    <div class="col">
+        <a class="next" href="/posts/developer-story-4/">
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-arrow-left "></i> -->
+        <svg class="svg-inline--fa fas fa-arrow-left " fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 448 512"><use href="#fas-arrow-left"></use></svg>&nbsp;[개발자 이야기 #4편] 내가 만난 이상한 일본인 #2 : 진정한 키보드 워리어
+                </a></div>
+    <div class="col text-end">
+        <a class="previous" href="/posts/developer-story-2/">
+                    [개발자 이야기 #2편] 일본에서의 개발자로 살아남기 : 필사적인 면접&nbsp;
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-arrow-right "></i> -->
+        <svg class="svg-inline--fa fas fa-arrow-right " fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 448 512"><use href="#fas-arrow-right"></use></svg>
+                </a></div>
+</div>
+
+            </div>
+            <div class="col col-md-3 col-lg-2 d-none d-md-block pt-5">
+                
+    
+
+
+<div class="toc toc-sidebar mb-5 my-md-0 mb-lg-5 p-3 text-body-secondary sticky-top">
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+
+
+    <strong class="d-block h6 my-2 pt-4">:</strong>
+    <nav class="toc">
+        
+        
+             
+        
+
+        
+            
+            <a  class="toc-item toc-level-1" href="/posts/developer-story-3/#여성-개발자와의-첫-만남">여성 개발자와의 첫 만남</a>
+        
+            
+            <a  class="toc-item toc-level-1" href="/posts/developer-story-3/#이-여성-개발자와-프로젝트-진행">이 여성 개발자와 프로젝트 진행</a>
+        
+            
+            <a  class="toc-item toc-level-1" href="/posts/developer-story-3/#한국인은-특유한-냄새가-난다">한국인은 특유한 냄새가 난다.</a>
+        
+            
+            <a  class="toc-item toc-level-1" href="/posts/developer-story-3/#공황-장애">공황 장애</a>
+        
+            
+            <a  class="toc-item toc-level-1" href="/posts/developer-story-3/#남은-2주">남은 2주</a>
+        
+            
+            <a  class="toc-item toc-level-1" href="/posts/developer-story-3/#마무리">마무리</a>
+        
+
+        
+    </nav>
+
+
+
+    </div>
+
+            </div>
+        </div>
+    </div>
+</main><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8543127460401091"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8543127460401091"
+     data-ad-slot="3689386360"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<footer class="container-fluid footer text-center p-3">
+    <div class="container-xxl text-center">
+        <small>
+             © 2025 슬기로운 개발자 생활 .
+             |
+            
+                
+                
+            
+        </small>
+    </div>
+</footer>
+<div id="toast-container" class="toast-container position-fixed bottom-0 end-0 p-3">
+
+
+
+
+
+
+
+
+<div id="toast-copied-code-message" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+        <strong class="me-auto">슬기로운 개발자 생활</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label=""></button>
+    </div>
+    <div class="toast-body"> </div>
+</div>
+</div>
+<!-- SVG symbol map -->
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" display="none">
+        <symbol id="fas-ellipsis" ><path d="M8 256a56 56 0 1 1 112 0A56 56 0 1 1 8 256zm160 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm216-56a56 56 0 1 1 0 112 56 56 0 1 1 0-112z"/></symbol>
+<symbol id="fas-sun" ><path d="M361.5 1.2c5 2.1 8.6 6.6 9.6 11.9L391 121l107.9 19.8c5.3 1 9.8 4.6 11.9 9.6s1.5 10.7-1.6 15.2L446.9 256l62.3 90.3c3.1 4.5 3.7 10.2 1.6 15.2s-6.6 8.6-11.9 9.6L391 391 371.1 498.9c-1 5.3-4.6 9.8-9.6 11.9s-10.7 1.5-15.2-1.6L256 446.9l-90.3 62.3c-4.5 3.1-10.2 3.7-15.2 1.6s-8.6-6.6-9.6-11.9L121 391 13.1 371.1c-5.3-1-9.8-4.6-11.9-9.6s-1.5-10.7 1.6-15.2L65.1 256 2.8 165.7c-3.1-4.5-3.7-10.2-1.6-15.2s6.6-8.6 11.9-9.6L121 121 140.9 13.1c1-5.3 4.6-9.8 9.6-11.9s10.7-1.5 15.2 1.6L256 65.1 346.3 2.8c4.5-3.1 10.2-3.7 15.2-1.6zM160 256a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zm224 0a128 128 0 1 0 -256 0 128 128 0 1 0 256 0z"/></symbol>
+<symbol id="fas-moon" ><path d="M223.5 32C100 32 0 132.3 0 256S100 480 223.5 480c60.6 0 115.5-24.2 155.8-63.4c5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6c-96.9 0-175.5-78.8-175.5-176c0-65.8 36-123.1 89.3-153.3c6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"/></symbol>
+<symbol id="fas-angle-left" ><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></symbol>
+<symbol id="fas-sort" ><path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8L32 224c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8l256 0c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z"/></symbol>
+<symbol id="fas-link" ><path d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"/></symbol>
+<symbol id="fas-arrow-left" ><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></symbol>
+<symbol id="fas-arrow-right" ><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></symbol>
+    </svg>
+
+  
+    
+
+
+  
+
+
+<script src="/js/core.bundle-analytics.ko.min.6bef69f9eb49386f56c35b3c14a49935b4dca59cc0998448108e5cdc450c14fc.js"
+         data-category="analytics" integrity="sha256-a&#43;9p&#43;etJOG9Ww1s8FKSZNbTcpZzAmYRIEI5c3EUMFPw=" crossorigin="anonymous" async></script>
+
+<script src="/js/core.bundle.ko.min.784c201233502d3473e56a19f2454b8d656f2259aa8da82b3855fd671660ad3f.js"
+         integrity="sha256-eEwgEjNQLTRz5WoZ8kVLjWVvIlmqjagrOFX9ZxZgrT8=" crossorigin="anonymous" async></script></body>
+</html>

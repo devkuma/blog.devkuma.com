@@ -1,0 +1,951 @@
+
+
+
+
+
+<!doctype html>
+<html lang="ko" class="no-js">
+    <head>
+
+<script src="/js/critical.bundle.min.8b80676a41018c1e1644d9ccdbb34f113985d369ab293c4f465d58780bc16a3a.js"
+         integrity="sha256-i4BnakEBjB4WRNnM27NPETmF02mrKTxPRl1YeAvBajo=" crossorigin="anonymous"></script><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.148.2">
+    <meta name="theme" content="Hinode 1.19.3">
+    
+
+
+
+
+
+    
+    
+<link rel="stylesheet" href="/css/main.min.5c89e9d67cf65457526735720e0e89e97276438ef4aac984fd160694503d420b.css" integrity="sha256-XInp1nz2VFdSZzVyDg6J6XJ2Q470qsmE/RYGlFA9Qgs=" crossorigin="anonymous">
+    
+        
+    
+    
+         
+        <link rel="preload" href="/fonts/inter-v12-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+
+
+
+    
+    
+    
+
+
+
+    
+
+
+
+
+    
+  <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <title>[개발자 이야기 #2편] 일본에서의 개발자로 살아남기 : 필사적인 면접 - 슬기로운 개발자 생활 </title>
+    <meta name="description" content="일본어 못하는 개발자 개발자로서 첫 직장 생활을 일본에서 시작한 나는 초기에는 일본어를 무지 못했다. 어느 정도였냐면, SI 업체로써 현장 면접을 볼 때, 면접관이 하는 말을 거의 못 알아듣는 건 당연했고, 앵무새처럼 외운 내용을 줄줄이 울프뿐, 말을 거의 못 했다. ...">
+
+
+
+
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="[개발자 이야기 #2편] 일본에서의 개발자로 살아남기 : 필사적인 면접">
+<meta property="og:description" content="일본어 못하는 개발자 개발자로서 첫 직장 생활을 일본에서 시작한 나는 초기에는 일본어를 무지 못했다. 어느 정도였냐면, SI 업체로써 현장 면접을 볼 때, 면접관이 하는 말을 거의 못 알아듣는 건 당연했고, 앵무새처럼 외운 내용을 줄줄이 울프뿐, 말을 거의 못 했다. ...">
+
+<meta property="og:url" content="https://blog.devkuma.com/posts/developer-story-2/">
+<meta property="og:site_name" content="슬기로운 개발자 생활">
+<meta property="article:published_time" content="2023-01-08T22:43:00+09:00">
+    <meta property="article:modified_time" content="2023-01-08T22:43:00+09:00">
+    <meta property="og:image" content="https://blog.devkuma.com/posts/developer/developer-story-2-1280x640.png">
+<meta property="og:image:alt" content="[개발자 이야기 #2편] 일본에서의 개발자로 살아남기 : 필사적인 면접">
+
+
+
+<meta name="twitter:card" content="summary_large_image">
+
+
+<meta name="twitter:title" content="[개발자 이야기 #2편] 일본에서의 개발자로 살아남기 : 필사적인 면접">
+<meta name="twitter:description" content="일본어 못하는 개발자 개발자로서 첫 직장 생활을 일본에서 시작한 나는 초기에는 일본어를 무지 못했다. 어느 정도였냐면, SI 업체로써 현장 면접을 볼 때, 면접관이 하는 말을 거의 못 알아듣는 건 당연했고, 앵무새처럼 외운 내용을 줄줄이 울프뿐, 말을 거의 못 했다. ...">
+<meta name="twitter:image" content="https://blog.devkuma.com/posts/developer/developer-story-2-1280x640.png">
+<meta name="twitter:image:alt" content="[개발자 이야기 #2편] 일본에서의 개발자로 살아남기 : 필사적인 면접">
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+        "@id": "https://blog.devkuma.com/#/schema/organization/1",
+      "name": "Hinode",
+      "url": "https://blog.devkuma.com/",
+      "sameAs": [null,"https://github.com/gethinode/hinode"],
+      "logo": {
+          "@type": "ImageObject",
+          "@id": "https://blog.devkuma.com/#/schema/image/1",
+          "url": "https://blog.devkuma.com/img/logo512x512.png",
+          "width": 512 ,
+          "height": 512 ,
+          "caption": "Hinode"
+        },
+        "image": {
+          "@id": "https://blog.devkuma.com/#/schema/image/1"
+        }
+      },
+    {
+      "@type": "WebSite",
+      "@id": "https://blog.devkuma.com/#/schema/website/1",
+      "url": "https://blog.devkuma.com/",
+      "name": "슬기로운 개발자 생활",
+      "description": "Hinode is a clean documentation and blog theme for your Hugo site based on Bootstrap 5.",
+      "publisher": {
+          "@id": "https://blog.devkuma.com/#/schema/organization/1"
+        }
+      },
+    {
+      "@type": "WebPage",
+      "@id": "https://blog.devkuma.com/posts/developer-story-2/",
+      "url": "https://blog.devkuma.com/posts/developer-story-2/",
+      "name": "[개발자 이야기 #2편] 일본에서의 개발자로 살아남기 : 필사적인 면접",
+      "description": "",
+      "isPartOf": {
+        "@id": "https://blog.devkuma.com/#/schema/website/1"
+      },
+      "about": {
+          "@id": "https://blog.devkuma.com/#/schema/organization/1"
+        },
+      "datePublished": "2023-01-08T22:43:00CET","dateModified": "2023-01-08T22:43:00CET","breadcrumb": {
+        "@id": "https://blog.devkuma.com/posts/developer-story-2/#/schema/breadcrumb/1"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://blog.devkuma.com/posts/developer-story-2/#/schema/image/2"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [{
+        "@type": "ReadAction", "target": ["https://blog.devkuma.com/posts/developer-story-2/"]
+      }]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://blog.devkuma.com/posts/developer-story-2/#/schema/breadcrumb/1",
+      "name": "Breadcrumbs",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position":  1 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://blog.devkuma.com/",
+          "url": "https://blog.devkuma.com/",
+          "name": "Home"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  2 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://blog.devkuma.com/posts/",
+          "url": "https://blog.devkuma.com/posts/",
+          "name": "Posts"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  3 ,
+        "item": {
+          "@id": "https://blog.devkuma.com/posts/developer-story-2/"
+          }
+        }]
+    },
+
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "ImageObject",
+          "@id": "https://blog.devkuma.com/posts/developer-story-2/#/schema/image/2",
+          "url": "https://blog.devkuma.com/posts/developer/developer-story-2-1280x640.png",
+          "contentUrl": "https://blog.devkuma.com/posts/developer/developer-story-2-1280x640.png",
+          "caption": "[개발자 이야기 #2편] 일본에서의 개발자로 살아남기 : 필사적인 면접"
+        }
+      ]
+    }
+
+  ]
+}
+</script>
+
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-96x96_hu_312ba0e4ce85fbd5.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-96x96_hu_c4cde3187ba9c9bf.png">
+        <link rel="icon" type="image/png" sizes="48x48" href="/favicons/favicon-96x96_hu_2d7809b4cf1dc181.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicons/favicon-96x96_hu_2fd0b046bbf518bf.png">
+    
+
+</head>
+
+    <body>
+
+
+
+
+
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+    
+
+
+
+
+<div class="container-fluid fixed-top p-0">
+
+
+
+
+
+<nav class="navbar px-4 py-4 navbar-fs-6 navbar-md-fs bg-body navbar-fixed-top navbar-expand-md"
+        
+        
+        >
+        <div class="container-xxl p-0">
+            <div class="d-flex navbar-container">
+                
+                <div class="d-flex align-items-center">
+                            <button class="navbar-toggler collapsed p-0 mx-auto invisible fw-30" type="button">
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-ellipsis fa-fw"></i> -->
+        <svg class="svg-inline--fa fas fa-ellipsis fa-fw" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 448 512"><use href="#fas-ellipsis"></use></svg></button></div>
+                
+        
+                
+                <div class="width-100 d-flex align-items-center width-md-auto">
+                    <a class="navbar-brand mx-auto" href="/" aria-label="">
+    
+    
+
+
+<img class="img-fluid m-auto"
+            src="/img/logo_icon-2800x2800.png"
+             srcset="/img/logo_icon-576x576.webp 576w, /img/logo_icon-768x768.webp 768w, /img/logo_icon-992x992.webp 992w, /img/logo_icon-1200x1200.webp 1200w, /img/logo_icon-1400x1400.webp 1400w, /img/logo_icon-2800x2800.webp 2800w" sizes="100vw" height="30" width="30" alt="슬기로운 개발자 생활"></a>
+                </div>
+        
+                
+                <div class="d-flex align-items-center">
+                    <button class="navbar-toggler main-nav-toggler collapsed p-0" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbar-0-collapse"
+                        aria-controls="navbar-0" aria-expanded="false" aria-label="">
+                        <span class="toggler-icon top-bar emphasis"></span>
+                        <span class="toggler-icon middle-bar emphasis"></span>
+                        <span class="toggler-icon bottom-bar emphasis"></span>
+                    </button>
+                </div>
+            </div>
+    
+            <div class="navbar-collapse collapse" id="navbar-0-collapse">
+                
+                    <div class="d-flex flex-fill ms-md-3 mt-4 mt-md-0 me-md-3">
+    <form class="search flex-fill position-relative me-auto">
+        <input class="search-input form-control is-search" type="search" placeholder="" aria-label="" autocomplete="off" name="search-input">
+        <div class="search-suggestions shadow bg-body rounded d-none" data-no-results=""></div>
+    </form>
+</div>
+
+                <ul class="navbar-nav navbar-nav-scroll ms-auto">
+                    
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a 
+            class="nav-link" 
+            
+            data-nav="main" data-nav-main="home" 
+             href="/"
+            
+            
+            ><span class=" d-md-none ">Home</span>
+            
+            <span class=" d-none d-md-block">Home</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a 
+            class="nav-link" 
+            
+            data-nav="main" data-nav-main="posts" 
+             href="/posts/"
+            
+            
+            ><span class=" d-md-none ">Posts</span>
+            
+            <span class=" d-none d-md-block">Posts</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a 
+            class="nav-link" 
+            
+            data-nav="main" data-nav-main="tags" 
+             href="/tags"
+            
+            
+            ><span class=" d-md-none ">Tags</span>
+            
+            <span class=" d-none d-md-block">Tags</span>
+            
+        </a>
+    
+</li>
+    
+                    
+                    
+                    
+                        <li class="nav-item py-2 py-md-1 col-12 col-md-auto d-none d-md-block me-auto">
+        <div class="vr d-none d-md-flex h-100 mx-md-2"></div>
+    </li>
+    <li><hr class="dropdown-divider-bg"></li>
+                    
+                                    
+                    <li class="nav-link navbar-fs-6 navbar-md-fs d-flex mode-switch align-items-center" id="navbar-mode">
+    <input type="checkbox" class="checkbox navbar-mode-selector" id="navbar-mode-checkbox" aria-label="" />
+    <label class="label" for="navbar-mode-checkbox">
+        
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-sun fa-fw"></i> -->
+        <svg class="svg-inline--fa fas fa-sun fa-fw" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 512 512"><use href="#fas-sun"></use></svg>
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-moon fa-fw"></i> -->
+        <svg class="svg-inline--fa fas fa-moon fa-fw" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 384 512"><use href="#fas-moon"></use></svg>
+            <div class="ball"></div>
+        
+    </label>
+</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<main id="container" class="main">
+            
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container-xxl flex-fill p-4 px-xxl-0">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+            <div class="col col-lg-2 d-none d-lg-block sidebar-overflow sticky-top pt-5">
+                
+            </div>
+            <div class="col-12 col-md-9 col-lg-8 mb-5 p-4">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    
+
+        
+    
+
+
+
+
+    <nav aria-label="breadcrumb" class="d-sm-none">
+        <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="/posts/developer-story/">
+                        
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-angle-left "></i> -->
+        <svg class="svg-inline--fa fas fa-angle-left " fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 320 512"><use href="#fas-angle-left"></use></svg>&nbsp;&nbsp;개발자 이야기
+                    </a>
+                </li></ol>
+    </nav>
+
+    <nav aria-label="breadcrumb" class="d-none d-sm-block">
+        <ol class="breadcrumb">
+                
+                <li class="breadcrumb-item"><a href="/posts/">Posts</a></li>
+                
+                <li class="breadcrumb-item"><a href="/posts/developer-story/">개발자 이야기</a></li><li class="breadcrumb-item active" aria-current="page">
+                
+                
+                [개발자 이야기 #2편] 일본에서의 개발자로 살아남기 : 필사적인 면접
+            </li>
+        </ol>
+    </nav>
+
+<h1 id="개발자-이야기-2편-일본에서의-개발자로-살아남기--필사적인-면접" class="display-4 pt-1">[개발자 이야기 #2편] 일본에서의 개발자로 살아남기 : 필사적인 면접</h1>
+
+
+    <small class="text-body-secondary text-uppercase">
+        
+            
+                
+            &bull;
+        
+        5&nbsp;  &bull;
+        872&nbsp;
+    </small>
+
+
+<div class="mt-3">
+        <div class="d-none-dark">
+            <div class="hstack gap-1">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="개발자"
+        href="/tags/%EA%B0%9C%EB%B0%9C%EC%9E%90/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">개발자</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="일본"
+        href="/tags/%EC%9D%BC%EB%B3%B8/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">일본</span>
+        </span></a>&nbsp;
+
+                </div>
+        </div>
+        
+        <div class="d-none-light">
+            <div class="hstack gap-1">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="개발자"
+        href="/tags/%EA%B0%9C%EB%B0%9C%EC%9E%90/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">개발자</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="일본"
+        href="/tags/%EC%9D%BC%EB%B3%B8/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">일본</span>
+        </span></a>&nbsp;
+
+                </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="d-md-none pb-5">
+
+
+
+
+
+
+
+
+
+
+
+    
+        <div class="d-grid gap-2 mx-auto">
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label=""
+        href="#toc-collapse" class="btn btn-outline-secondary position-relative toc-button"
+         data-bs-toggle="collapse" aria-expanded="false" aria-controls="toc-collapse"role="button"
+        >
+        <span class="d-flex justify-content-between">
+            <span class="my-auto"></span>
+                <span class="align-self-center">
+                    
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-sort "></i> -->
+        <svg class="svg-inline--fa fas fa-sort " fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 320 512"><use href="#fas-sort"></use></svg>
+                </span>
+            
+        </span></a>
+</div>
+
+        <div class="collapse border bg-body-tertiary rounded p-1 navbar-nav-scroll" id="toc-collapse">
+            <small>
+                <div class="toc toc-panel text-body p-2">
+                        <a class="toc-item toc-level-1" href="/posts/developer-story-2/#일본어-못하는-개발자">일본어 못하는 개발자 &nbsp; </a>
+                        <a class="toc-item toc-level-1" href="/posts/developer-story-2/#필사적인-면접">필사적인 면접 &nbsp; </a>
+                        <a class="toc-item toc-level-1" href="/posts/developer-story-2/#첫-번째-프로젝트">첫 번째 프로젝트 &nbsp; </a>
+                        <a class="toc-item toc-level-1" href="/posts/developer-story-2/#여러-프로젝트에-투입">여러 프로젝트에 투입 &nbsp; </a>
+                </div>
+            </small>
+        </div>
+</div>
+
+                
+
+
+
+<div class="img-wrap mb-5"><img class="img-fluid rounded"
+            src="/posts/developer/developer-story-2-2800x1200.png"
+             fetchpriority="high" srcset="/posts/developer/developer-story-2-576x247.webp 576w, /posts/developer/developer-story-2-768x329.webp 768w, /posts/developer/developer-story-2-992x425.webp 992w, /posts/developer/developer-story-2-1200x514.webp 1200w, /posts/developer/developer-story-2-1400x600.webp 1400w, /posts/developer/developer-story-2-2800x1200.webp 2800w" sizes="100vw" height="1200" width="2800" alt="[개발자 이야기 #2편] 일본에서의 개발자로 살아남기 : 필사적인 면접"></div>
+
+
+
+
+<h2 id="일본어-못하는-개발자" class="heading ">일본어 못하는 개발자<a href="#%ec%9d%bc%eb%b3%b8%ec%96%b4-%eb%aa%bb%ed%95%98%eb%8a%94-%ea%b0%9c%eb%b0%9c%ec%9e%90" aria-labelledby="일본어-못하는-개발자">
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-link anchor"></i> -->
+        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 640 512"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>개발자로서 첫 직장 생활을 일본에서 시작한 나는 초기에는 일본어를 무지 못했다. 어느 정도였냐면, SI 업체로써 현장 면접을 볼 때, 면접관이 하는 말을 거의 못 알아듣는 건 당연했고, 앵무새처럼 외운 내용을 줄줄이 울프뿐, 말을 거의 못 했다. 그도 그럴만한데 일본어를 10개월 공부하고 넘어갔으니, 유창하게 일본어를 할 수 없는 건 당연한 거였을 것이다.</p>
+<p>한번은 일본인 면접관이 내가 일본어로 더듬더듬 말하는 것을 듣고는 나를 앞에 두고 &ldquo;현장에 투입해도 괜찮을까?&ldquo;라고 혼잣말하듯이 말을 하였다. 그 말에 나는 당당히 &ldquo;괜찮습니다&quot;라고 대답했다. 그러자, 그 면접관은 갑자기 표정이 심각하게 변하였고, 바로 &ldquo;빠가야로!&ldquo;라고 외쳤다. 그러고 이어서 &ldquo;뭐가 괜찮다는 거야?&ldquo;라는 말을 반복하면 화를 냈다. 그 상황에 난 뭔가 잘못되었음을 직감하였고, &ldquo;죄송합니다&quot;라는 말을 되풀이할 수밖에 없었다. 그러나, 이미 버리진 일은 수습이 되지 않았다. 그렇게 면접이 끝나고, 옆에 같이 있었던 한국인이 면접관이 어떤 말을 했든 건지 말해 줘서야 어떤 상황이었는지 알 수 있었다. 지금이야, 술 안줏감으로 웃으면서 말할 수 있게 되었지만, 그때 당시를 생각하면 정말 아찔했다. 나라도 입장 바꿔 생각해 본다면 무지 화가 날 일이었을 것이다.</p>
+
+
+
+
+
+<h2 id="필사적인-면접" class="heading ">필사적인 면접<a href="#%ed%95%84%ec%82%ac%ec%a0%81%ec%9d%b8-%eb%a9%b4%ec%a0%91" aria-labelledby="필사적인-면접">
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-link anchor"></i> -->
+        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 640 512"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>그 후로도 다른 현장에 면접은 계속 진행이 되었고, 볼 때마다 떨어졌다. 어쨌건 회사에 입사해서 밥값은 해야 하는 상황이니, 난 초조해지기 시작했고, 어떻게 해서든 필사적으로 현장 어딘가에는 들어가야만 했다. 그러다가, 마지막으로 한 현장에 한국인 한 분과 같이 면접을 봤는데, 첫인상의 사무실 분위기는 나쁘지 않았다. 그러고 면접관을 들어오신 분이 젊은 분으로 인상이 너무 좋았다. 그분은 지금까지 봐왔던 면접과 비교해서는 내게 친절하고, 호의적이다는 것을 느낄 수 있었다.</p>
+<p>그 면접관에서 기술적인 질문을 하였는데, 천천히 말해줘서인지 뭘 질문하는지는 뜻을 충분히 알 수 있었다. 난 그때 이 질문만큼은 어떻게서든 잘 대답해야겠다는 생각에 내가 아는 모든 일본어 어휘를 총동원하여 설명하였다. 내 의지가 전해진 것일까, 그분은 대답을 잘해줬다고 칭찬과 함께 미소를 지어 주었다. 그러고, 면접을 나와 같이 면접을 봤던 한국분은 일본어를 썩잘 했던 건 아니었지만, 어쨌건 나보다는 잘했고, 성격도 영업 같은 분이라 면접 분위기는 한층 더 좋게 하였다. 그 결과 난 그분과 함께 그 현장에 출근해도 된다는 회신을 받게 되었고, 그 현장은 내겐 일본에서의 처음이자 마지막인 현장이 되었다.</p>
+
+
+
+
+
+    <blockquote class="blockquote">
+        <p>보통 현장에 투입이 되면 프로젝트가 끝날 때마다, 다른 현장으로 옮기는 일은 흔한 일이었지만, 난 처음에 그 현장에 출근해서 마지막에 귀국할 때까지 옮기지 않고, 그곳에서 일본 직장 생활을 마무리하였다.</p>
+    </blockquote>
+
+
+
+
+
+<h2 id="첫-번째-프로젝트" class="heading ">첫 번째 프로젝트<a href="#%ec%b2%ab-%eb%b2%88%ec%a7%b8-%ed%94%84%eb%a1%9c%ec%a0%9d%ed%8a%b8" aria-labelledby="첫-번째-프로젝트">
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-link anchor"></i> -->
+        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 640 512"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>그 현장에 출근하고 같이 면접 봤던 한국분과 난 신규 프로젝트에 같이 투입되었는데, 프로젝트 리더와의 첫 대면에서 우리가 특히, 내가 일본어를 잘 못한다는 것을 리더가 알아채는 데는 얼마 걸리지 않았다. 그런 상황이 조금 난감해하는 거 같기도 했다. 그런 그 리더는 우리와 대화하기 전에 우리를 담당하는 신입 사원 일본인을 앞장세웠고, 우리가 무슨 개발 업무를 해야 하는지 천천히 그림까지 그려가며 잘 설명해 주었다. 그러나, 실은 난 거의 못 알아들었다. 그나마 다행이었던 것이 같이 들어갔던 한국인분이 거의 알아듣고, 그분이 다시 내게 내용을 정리해 주셔서 업무를 진행할 수 있게 되었다. 그 한국분은 비전공자였는데, 내게 도움을 준 대신에 난 그분의 개발적인 문제를 해결해 주었다. 우리는 그렇게 서로의 부족한 면을 도와가며, 콤비로써 업무를 문제없이 진행하게 되었다.</p>
+<p>일단, 난 코드를 작성하기 전에 기존에 이미 작성된 코드를 살펴보았다. 기존에 있는 코드는 그 회사에서 제일 실력이 좋은 개발자 한 분이 쌤플처럼 미리 만든 코드였다. 난 그분의 코드를 최대한 따라 했다. 실은 내 스타일의 코딩 방식은 아니었지만, 좋든 싫든 무조건 최대한 비슷하게 코딩하였다. 어차피 내가 실무에 처음으로 투입되는 프로젝트이기도 하여, 잘하는 분을 따라 해서 나쁜 건 없다는 생각이 들어서서였다. 그분은 내가 작성한 코드가 자신의 스타일로 맞춰져 있다는 것에 매우 만족해하였고, 더 나아가 그분이 만든 코드에 기능을 확장하고 개선해 가는 작업도 하게 되었다. 물론 누가 작성했는지 구별이 안 될 정도로 비슷하게 코딩하는 것을 계속하였다. 프로젝트는 성공적으로 계속 진행되어 가면서, 그분은 나에 대해 좋은 평가를 회사 내부에 말하고 다녔고, 어느새 난 그분이 인정한 사람으로 실력을 인정받기 시작하였다.</p>
+<p>그러면서 시간이 흘러가면서 난 일본어가 서서히 늘었고, 내가 도움을 줬던 그 한국분도 개발적인 스킬이 많이 향상되어 가면서 조금씩 서로의 도움이 없어도 각자 업무를 할 수 있는 능력을 갖추게 되었다. 이 첫 번째 프로젝트 이후로는 난 이분과 같은 현장에는 있었지만, 같이 하는 프로젝트는 없었다.</p>
+<p>그리고, 첫 프로젝트에 투입되고, 어느정도 지나서 알게 됐는데, 내가 들어간 회사도 대기업 상대로 한 SI 하청 업체였고, 내가 참여한 프로젝트도 일본 대기업이 발주한 것이었다. 결국 난 하청에 하청을 받은 갑을병정에 병에 해당된 거였다.</p>
+
+
+
+
+
+<h2 id="여러-프로젝트에-투입" class="heading ">여러 프로젝트에 투입<a href="#%ec%97%ac%eb%9f%ac-%ed%94%84%eb%a1%9c%ec%a0%9d%ed%8a%b8%ec%97%90-%ed%88%ac%ec%9e%85" aria-labelledby="여러-프로젝트에-투입">
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-link anchor"></i> -->
+        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 640 512"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>첫 번째 프로젝트의 성공적인 진행한 이후에 난 또 다른 여러 프로젝트에 투입이 되었다. 그중에는 금방 끝나는 프로젝트도 있었고, 내가 보유한 스킬과 다른 프로젝트도 있었다. 매번 새롭기도 하고 어려운 점도 있긴 했지만, 큰 탈 없이 프로젝트를 하나씩 성공적으로 해내 갔다.</p>
+<p>생각나는 프로젝트 중에는 사용하는 코딩 언어가 다른 프로젝트가 있었는데, 현장 회사 내부에는 경험자가 없었고, 해보고 싶다는 지원자도 없었던 상황이었다. 이 프로젝트에 내가 유일하게 해보고 싶다는 의지를 비쳤고, 회사에서는 선택지도 없는 상황에 나를 투입할 수밖에 없었다. 난 우선 필요한 것만 빠르고 공부하였고, 어려움이 가끔 있긴 했지만, 결과를 일정에 맞춰 빠르게 만들어 내었다. 이 프로젝트의 성공은 나에게 일감을 끊이지 않게 들어오게 되는 계기가 되었다.</p>
+<p>그리고, 마냥 성공한 프로젝트만 있는 것은 아니었다. 처음부터 내가 참여한 프로젝트는 아니었고, 이미 이슈가 많아 발생하여, 지연되었던 프로젝트에 구원 투수로 투입이 되기도 하였다. 이 프로젝트는 코드가 너무 낙후되어 있기도 하여, 새로 기능을 추가하기에는 어려운 점이 많았다. 어떻게 해서든 일정에 맞춰보려고 했지만, 이미 많이 지연되었던지라 그 프로젝트는 결국 실패로 끝나 버렸다. 슬프게도 이 프로젝트 리더도 그 책임으로 인해 퇴사까지 하게 되었다.</p>
+<p>지금 생각해 보면, 그때 당시에 난 기술적이나 문화적이나 새로운 것에 크게 거부감 없이 뭐든 스펀지처럼 과감하게 받아들였던 거 같다. 지금 다시 도전할 수 있겠냐고 하면, 이제는 못 할 거 같다는 생각이 든다.</p>
+<hr>
+<p>이렇게 두 번째 글을 작성해 봤습니다. 제가 끝까지 제 개발자 경험담을 계속 작성할 수 있을지는 모르겠지만, 어쨌든 끝까지 완주해 보려고 합니다. 그러면서 제 글솜씨도 계속 늘길 바랄 뿐입니다. 많은 응원 바랍니다. ^^</p>
+
+
+                
+                
+<div class="row row-cols-2 mt-5 mb-3">
+    <div class="col">
+        <a class="next" href="/posts/developer-story-3/">
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-arrow-left "></i> -->
+        <svg class="svg-inline--fa fas fa-arrow-left " fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 448 512"><use href="#fas-arrow-left"></use></svg>&nbsp;[개발자 이야기 #3편] 내가 만난 이상한 일본인 #1 : 공황 장애
+                </a></div>
+    <div class="col text-end">
+        <a class="previous" href="/posts/developer-story-1/">
+                    [개발자 이야기 #1편] 내가 개발자가 되기 까지... : 첫 직장을 일본에서 시작&nbsp;
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-arrow-right "></i> -->
+        <svg class="svg-inline--fa fas fa-arrow-right " fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 448 512"><use href="#fas-arrow-right"></use></svg>
+                </a></div>
+</div>
+
+            </div>
+            <div class="col col-md-3 col-lg-2 d-none d-md-block pt-5">
+                
+    
+
+
+<div class="toc toc-sidebar mb-5 my-md-0 mb-lg-5 p-3 text-body-secondary sticky-top">
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+
+
+    <strong class="d-block h6 my-2 pt-4">:</strong>
+    <nav class="toc">
+        
+        
+             
+        
+
+        
+            
+            <a  class="toc-item toc-level-1" href="/posts/developer-story-2/#일본어-못하는-개발자">일본어 못하는 개발자</a>
+        
+            
+            <a  class="toc-item toc-level-1" href="/posts/developer-story-2/#필사적인-면접">필사적인 면접</a>
+        
+            
+            <a  class="toc-item toc-level-1" href="/posts/developer-story-2/#첫-번째-프로젝트">첫 번째 프로젝트</a>
+        
+            
+            <a  class="toc-item toc-level-1" href="/posts/developer-story-2/#여러-프로젝트에-투입">여러 프로젝트에 투입</a>
+        
+
+        
+    </nav>
+
+
+
+    </div>
+
+            </div>
+        </div>
+    </div>
+</main><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8543127460401091"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8543127460401091"
+     data-ad-slot="3689386360"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<footer class="container-fluid footer text-center p-3">
+    <div class="container-xxl text-center">
+        <small>
+             © 2025 슬기로운 개발자 생활 .
+             |
+            
+                
+                
+            
+        </small>
+    </div>
+</footer>
+<div id="toast-container" class="toast-container position-fixed bottom-0 end-0 p-3">
+
+
+
+
+
+
+
+
+<div id="toast-copied-code-message" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+        <strong class="me-auto">슬기로운 개발자 생활</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label=""></button>
+    </div>
+    <div class="toast-body"> </div>
+</div>
+</div>
+<!-- SVG symbol map -->
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" display="none">
+        <symbol id="fas-ellipsis" ><path d="M8 256a56 56 0 1 1 112 0A56 56 0 1 1 8 256zm160 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm216-56a56 56 0 1 1 0 112 56 56 0 1 1 0-112z"/></symbol>
+<symbol id="fas-sun" ><path d="M361.5 1.2c5 2.1 8.6 6.6 9.6 11.9L391 121l107.9 19.8c5.3 1 9.8 4.6 11.9 9.6s1.5 10.7-1.6 15.2L446.9 256l62.3 90.3c3.1 4.5 3.7 10.2 1.6 15.2s-6.6 8.6-11.9 9.6L391 391 371.1 498.9c-1 5.3-4.6 9.8-9.6 11.9s-10.7 1.5-15.2-1.6L256 446.9l-90.3 62.3c-4.5 3.1-10.2 3.7-15.2 1.6s-8.6-6.6-9.6-11.9L121 391 13.1 371.1c-5.3-1-9.8-4.6-11.9-9.6s-1.5-10.7 1.6-15.2L65.1 256 2.8 165.7c-3.1-4.5-3.7-10.2-1.6-15.2s6.6-8.6 11.9-9.6L121 121 140.9 13.1c1-5.3 4.6-9.8 9.6-11.9s10.7-1.5 15.2 1.6L256 65.1 346.3 2.8c4.5-3.1 10.2-3.7 15.2-1.6zM160 256a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zm224 0a128 128 0 1 0 -256 0 128 128 0 1 0 256 0z"/></symbol>
+<symbol id="fas-moon" ><path d="M223.5 32C100 32 0 132.3 0 256S100 480 223.5 480c60.6 0 115.5-24.2 155.8-63.4c5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6c-96.9 0-175.5-78.8-175.5-176c0-65.8 36-123.1 89.3-153.3c6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"/></symbol>
+<symbol id="fas-angle-left" ><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></symbol>
+<symbol id="fas-sort" ><path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8L32 224c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8l256 0c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z"/></symbol>
+<symbol id="fas-link" ><path d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"/></symbol>
+<symbol id="fas-arrow-left" ><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></symbol>
+<symbol id="fas-arrow-right" ><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></symbol>
+    </svg>
+
+  
+    
+
+
+  
+
+
+<script src="/js/core.bundle-analytics.ko.min.6bef69f9eb49386f56c35b3c14a49935b4dca59cc0998448108e5cdc450c14fc.js"
+         data-category="analytics" integrity="sha256-a&#43;9p&#43;etJOG9Ww1s8FKSZNbTcpZzAmYRIEI5c3EUMFPw=" crossorigin="anonymous" async></script>
+
+<script src="/js/core.bundle.ko.min.784c201233502d3473e56a19f2454b8d656f2259aa8da82b3855fd671660ad3f.js"
+         integrity="sha256-eEwgEjNQLTRz5WoZ8kVLjWVvIlmqjagrOFX9ZxZgrT8=" crossorigin="anonymous" async></script></body>
+</html>
