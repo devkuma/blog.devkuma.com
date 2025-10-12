@@ -6,20 +6,27 @@
     <description>Recent content in Categories on 슬기로운 개발자 생활</description>
     <generator>Hugo</generator>
     <language>ko</language>
-    <lastBuildDate>Sat, 11 Oct 2025 23:08:00 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 12 Oct 2025 22:30:00 +0900</lastBuildDate>
     <atom:link href="https://blog.devkuma.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>일반 상식</title>
+      <link>https://blog.devkuma.com/categories/%EC%9D%BC%EB%B0%98-%EC%83%81%EC%8B%9D/</link>
+      <pubDate>Sun, 12 Oct 2025 22:30:00 +0900</pubDate>
+      <guid>https://blog.devkuma.com/categories/%EC%9D%BC%EB%B0%98-%EC%83%81%EC%8B%9D/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>게임 이야기</title>
+      <link>https://blog.devkuma.com/categories/%EA%B2%8C%EC%9E%84-%EC%9D%B4%EC%95%BC%EA%B8%B0/</link>
+      <pubDate>Sun, 12 Oct 2025 21:47:00 +0900</pubDate>
+      <guid>https://blog.devkuma.com/categories/%EA%B2%8C%EC%9E%84-%EC%9D%B4%EC%95%BC%EA%B8%B0/</guid>
+      <description></description>
+    </item>
     <item>
       <title>자전거</title>
       <link>https://blog.devkuma.com/categories/%EC%9E%90%EC%A0%84%EA%B1%B0/</link>
       <pubDate>Sat, 11 Oct 2025 23:08:00 +0900</pubDate>
       <guid>https://blog.devkuma.com/categories/%EC%9E%90%EC%A0%84%EA%B1%B0/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>일반 상식</title>
-      <link>https://blog.devkuma.com/categories/%EC%9D%BC%EB%B0%98-%EC%83%81%EC%8B%9D/</link>
-      <pubDate>Sat, 13 Apr 2024 22:17:00 +0900</pubDate>
-      <guid>https://blog.devkuma.com/categories/%EC%9D%BC%EB%B0%98-%EC%83%81%EC%8B%9D/</guid>
       <description></description>
     </item>
     <item>
@@ -48,13 +55,6 @@
       <link>https://blog.devkuma.com/categories/%EC%83%9D%EA%B0%81-%EC%A0%95%EB%A6%AC/</link>
       <pubDate>Sun, 09 Jul 2023 01:33:00 +0900</pubDate>
       <guid>https://blog.devkuma.com/categories/%EC%83%9D%EA%B0%81-%EC%A0%95%EB%A6%AC/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>게임 이야기</title>
-      <link>https://blog.devkuma.com/categories/%EA%B2%8C%EC%9E%84-%EC%9D%B4%EC%95%BC%EA%B8%B0/</link>
-      <pubDate>Sat, 01 Jul 2023 01:44:00 +0900</pubDate>
-      <guid>https://blog.devkuma.com/categories/%EA%B2%8C%EC%9E%84-%EC%9D%B4%EC%95%BC%EA%B8%B0/</guid>
       <description></description>
     </item>
     <item>
