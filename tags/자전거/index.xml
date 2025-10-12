@@ -6,8 +6,15 @@
     <description>Recent content in 자전거 on 슬기로운 개발자 생활</description>
     <generator>Hugo</generator>
     <language>ko</language>
-    <lastBuildDate>Sun, 12 Oct 2025 21:47:00 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 12 Oct 2025 23:25:00 +0900</lastBuildDate>
     <atom:link href="https://blog.devkuma.com/tags/%EC%9E%90%EC%A0%84%EA%B1%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>자전거 녹 제거방법 - 가정에서도 손쉽게 할 수 있는 실용적 관리법</title>
+      <link>https://blog.devkuma.com/posts/bicycle/rust/</link>
+      <pubDate>Sun, 12 Oct 2025 23:25:00 +0900</pubDate>
+      <guid>https://blog.devkuma.com/posts/bicycle/rust/</guid>
+      <description>&lt;h2 id=&#34;자전거-녹-제거-방법&#34; class=&#34;heading &#34;&gt;자전거 녹 제거 방법&lt;a href=&#34;#%ec%9e%90%ec%a0%84%ea%b1%b0-%eb%85%b9-%ec%a0%9c%ea%b1%b0-%eb%b0%a9%eb%b2%95&#34; aria-labelledby=&#34;자전거-녹-제거-방법&#34;&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;!-- &lt;i class=&#34;fas fa-link anchor&#34;&gt;&lt;/i&gt; --&gt;&#xA;        &lt;svg class=&#34;svg-inline--fa fas fa-link anchor&#34; fill=&#34;currentColor&#34; aria-hidden=&#34;true&#34; role=&#34;img&#34; viewBox=&#34;0 0 640 512&#34;&gt;&lt;use href=&#34;#fas-link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&amp;nbsp;&#xA;    &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;— 가정에서도 손쉽게 할 수 있는 실용적 관리법 —&lt;/p&gt;&#xA;&lt;p&gt;자전거는 금속 부품이 많아, 비나 습기 등에 노출될 경우 쉽게 녹이 발생한다. 특히 여름철 장마 이후나 장기간 실외에 방치된 경우, 프레임이나 체인, 핸들바 등에 부식이 생기기 쉽다. 녹이 생긴 자전거는 외관이 손상될 뿐만 아니라, 의류에 녹이 묻거나 부품의 기능이 저하되는 등의 불편을 초래한다. 그러나 이러한 이유로 자전거를 새로 구입하기에는 경제적 부담이 크다.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>자전거의 종류와 특징</title>
       <link>https://blog.devkuma.com/posts/bicycle/types/</link>
