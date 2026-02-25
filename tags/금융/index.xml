@@ -6,8 +6,15 @@
     <description>Recent content in 금융 on 슬기로운 개발자 생활</description>
     <generator>Hugo</generator>
     <language>ko</language>
-    <lastBuildDate>Sun, 22 Feb 2026 13:23:00 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 25 Feb 2026 15:42:00 +0900</lastBuildDate>
     <atom:link href="https://blog.devkuma.com/tags/%EA%B8%88%EC%9C%B5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>코스피, 코스닥, 나스닥 간단 설명</title>
+      <link>https://blog.devkuma.com/posts/kospi-kosdaq-nasdaq/</link>
+      <pubDate>Wed, 25 Feb 2026 15:42:00 +0900</pubDate>
+      <guid>https://blog.devkuma.com/posts/kospi-kosdaq-nasdaq/</guid>
+      <description>&lt;h2 id=&#34;코스피-kospi&#34; class=&#34;heading &#34;&gt;코스피 (KOSPI)&lt;a href=&#34;#%ec%bd%94%ec%8a%a4%ed%94%bc-kospi&#34; aria-labelledby=&#34;코스피-kospi&#34;&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;!-- &lt;i class=&#34;fas fa-link anchor&#34;&gt;&lt;/i&gt; --&gt;&#xA;        &lt;svg class=&#34;svg-inline--fa fas fa-link anchor&#34; fill=&#34;currentColor&#34; aria-hidden=&#34;true&#34; role=&#34;img&#34; viewBox=&#34;0 0 640 512&#34;&gt;&lt;use href=&#34;#fas-link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&amp;nbsp;&#xA;    &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;정식 명칭:&lt;/strong&gt; Korea Composite Stock Price Index&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;운영 기관:&lt;/strong&gt; 한국거래소&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h3 id=&#34;개념&#34; class=&#34;heading &#34;&gt;개념&lt;a href=&#34;#%ea%b0%9c%eb%85%90&#34; aria-labelledby=&#34;개념&#34;&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;!-- &lt;i class=&#34;fas fa-link anchor&#34;&gt;&lt;/i&gt; --&gt;&#xA;        &lt;svg class=&#34;svg-inline--fa fas fa-link anchor&#34; fill=&#34;currentColor&#34; aria-hidden=&#34;true&#34; role=&#34;img&#34; viewBox=&#34;0 0 640 512&#34;&gt;&lt;use href=&#34;#fas-link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&amp;nbsp;&#xA;    &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;대한민국 &lt;strong&gt;유가증권시장(대형 우량기업 시장)&lt;/strong&gt; 에 상장된 기업들의 주가를 종합해 만든 대표 지수이다.&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h3 id=&#34;특징&#34; class=&#34;heading &#34;&gt;특징&lt;a href=&#34;#%ed%8a%b9%ec%a7%95&#34; aria-labelledby=&#34;특징&#34;&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;!-- &lt;i class=&#34;fas fa-link anchor&#34;&gt;&lt;/i&gt; --&gt;&#xA;        &lt;svg class=&#34;svg-inline--fa fas fa-link anchor&#34; fill=&#34;currentColor&#34; aria-hidden=&#34;true&#34; role=&#34;img&#34; viewBox=&#34;0 0 640 512&#34;&gt;&lt;use href=&#34;#fas-link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&amp;nbsp;&#xA;    &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;삼성전자, 현대차 같은 &lt;strong&gt;대기업 중심&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;한국 경제 전체 흐름을 보여주는 대표 지표&lt;/li&gt;&#xA;&lt;li&gt;변동성은 상대적으로 코스닥보다 낮은 편&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;쉽게 말하면, &lt;strong&gt;한국의 메인 주식시장&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>자녀 증여세 - 면제 한도부터 신고, 절세 팁</title>
       <link>https://blog.devkuma.com/posts/gift-tax/</link>
