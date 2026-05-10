@@ -6,8 +6,15 @@
     <description>Recent content in Welcome to devkuma! on 슬기로운 개발자 생활</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Feb 2026 14:09:00 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 08:47:29 +0900</lastBuildDate>
     <atom:link href="https://blog.devkuma.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>고속버스 예약 방법, 코버스와 티머니GO로 예매하는 순서 정리</title>
+      <link>https://blog.devkuma.com/posts/highway-bus-reservation/</link>
+      <pubDate>Sun, 10 May 2026 08:47:29 +0900</pubDate>
+      <guid>https://blog.devkuma.com/posts/highway-bus-reservation/</guid>
+      <description>&lt;p&gt;다른 지역으로 멀리 갈 때는 보통 자차나 기차를 먼저 떠올리게 된다. 나도 고속버스를 자주 이용하는 편은 아니었다. 그런데 명절, 주말, 연휴처럼 도로 상황은 애매하고 기차표는 이미 매진된 경우가 있다. 이럴 때 고속버스 예매 방법을 알고 있으면 이동 선택지가 하나 더 생긴다.&lt;/p&gt;&#xA;&lt;p&gt;요즘 고속버스는 터미널에 가서 현장 발권만 하는 방식이 아니다. 코버스 사이트에서 노선을 조회하고, 좌석을 고르고, 카드 결제까지 할 수 있다. 모바일로는 티머니GO 앱을 이용하면 예매와 승차권 확인을 한 번에 처리하기 편하다.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>구글 애드센스 광고 게시 승인 방법</title>
       <link>https://blog.devkuma.com/posts/google-ad-sense-approval/</link>
