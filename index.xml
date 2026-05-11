@@ -6,8 +6,15 @@
     <description>Recent content in Welcome to devkuma! on 슬기로운 개발자 생활</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 May 2026 08:47:29 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 08:29:13 +0900</lastBuildDate>
     <atom:link href="https://blog.devkuma.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>날씨 사이트 주소 모음, 국내외 기상 예보 사이트 추천</title>
+      <link>https://blog.devkuma.com/posts/weather-sites-list/</link>
+      <pubDate>Tue, 12 May 2026 08:29:13 +0900</pubDate>
+      <guid>https://blog.devkuma.com/posts/weather-sites-list/</guid>
+      <description>&lt;p&gt;아침에 나가기 전에 날씨를 확인하는 습관은 꽤 중요하다. 비가 오는지, 미세먼지가 심한지, 바람이 강한지에 따라 우산, 옷차림, 이동 수단이 달라진다. 주말에 캠핑이나 등산을 계획하고 있다면 더더욱 그렇다.&lt;/p&gt;&#xA;&lt;p&gt;그런데 날씨 사이트마다 잘하는 영역이 조금씩 다르다. 어떤 곳은 국내 동네 예보가 강하고, 어떤 곳은 바람과 비구름 흐름을 보기 좋고, 어떤 곳은 해외여행 날씨 확인에 편하다. 그래서 한 곳만 보는 것보다 목적에 맞게 2~3곳을 같이 보는 편이 훨씬 실용적이다.&lt;/p&gt;&#xA;&lt;p&gt;여기서는 국내 공식 사이트, 자주 쓰는 포털 날씨, 글로벌 날씨 서비스, 여행이나 야외 활동에 유용한 사이트를 나눠서 정리하였다.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>고속버스 예약 방법, 코버스와 티머니GO로 예매하는 순서 정리</title>
       <link>https://blog.devkuma.com/posts/highway-bus-reservation/</link>
