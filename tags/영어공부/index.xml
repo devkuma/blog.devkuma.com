@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>영어공부 on 슬기로운 개발자 생활</title>
+    <link>https://blog.devkuma.com/tags/%EC%98%81%EC%96%B4%EA%B3%B5%EB%B6%80/</link>
+    <description>Recent content in 영어공부 on 슬기로운 개발자 생활</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 May 2026 22:50:44 +0900</lastBuildDate>
+    <atom:link href="https://blog.devkuma.com/tags/%EC%98%81%EC%96%B4%EA%B3%B5%EB%B6%80/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>번역 사이트 추천 리스트 주소모음, AI 번역기부터 문서 번역까지 한눈에 정리</title>
+      <link>https://blog.devkuma.com/posts/translation-sites-list/</link>
+      <pubDate>Thu, 14 May 2026 22:50:44 +0900</pubDate>
+      <guid>https://blog.devkuma.com/posts/translation-sites-list/</guid>
+      <description>&lt;p&gt;외국어를 다룰 일이 예전보다 훨씬 많아졌다. 해외 뉴스를 읽을 때도, 논문이나 매뉴얼을 확인할 때도, 회사에서 외국어 이메일을 쓸 때도 번역 사이트를 자연스럽게 열게 된다. 해외여행 중 메뉴판이나 안내문을 볼 때도 번역기는 거의 필수 도구에 가깝다.&lt;/p&gt;&#xA;&lt;p&gt;그런데 번역 사이트마다 잘하는 일이 다르다. 어떤 서비스는 한국어 번역이 자연스럽고, 어떤 서비스는 지원 언어가 많고, 어떤 서비스는 PDF나 워드 파일 번역에 강하다. 중요한 문장일수록 아무 번역기나 쓰기보다 용도에 맞게 고르는 편이 결과가 훨씬 좋다.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
