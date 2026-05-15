@@ -6,8 +6,43 @@
     <description>Recent content in Tags on 슬기로운 개발자 생활</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 May 2026 22:50:44 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 15:37:48 +0900</lastBuildDate>
     <atom:link href="https://blog.devkuma.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SES</title>
+      <link>https://blog.devkuma.com/tags/ses/</link>
+      <pubDate>Fri, 15 May 2026 15:37:48 +0900</pubDate>
+      <guid>https://blog.devkuma.com/tags/ses/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>개발자</title>
+      <link>https://blog.devkuma.com/tags/%EA%B0%9C%EB%B0%9C%EC%9E%90/</link>
+      <pubDate>Fri, 15 May 2026 15:37:48 +0900</pubDate>
+      <guid>https://blog.devkuma.com/tags/%EA%B0%9C%EB%B0%9C%EC%9E%90/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>일본IT</title>
+      <link>https://blog.devkuma.com/tags/%EC%9D%BC%EB%B3%B8it/</link>
+      <pubDate>Fri, 15 May 2026 15:37:48 +0900</pubDate>
+      <guid>https://blog.devkuma.com/tags/%EC%9D%BC%EB%B3%B8it/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>일본취업</title>
+      <link>https://blog.devkuma.com/tags/%EC%9D%BC%EB%B3%B8%EC%B7%A8%EC%97%85/</link>
+      <pubDate>Fri, 15 May 2026 15:37:48 +0900</pubDate>
+      <guid>https://blog.devkuma.com/tags/%EC%9D%BC%EB%B3%B8%EC%B7%A8%EC%97%85/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>파견</title>
+      <link>https://blog.devkuma.com/tags/%ED%8C%8C%EA%B2%AC/</link>
+      <pubDate>Fri, 15 May 2026 15:37:48 +0900</pubDate>
+      <guid>https://blog.devkuma.com/tags/%ED%8C%8C%EA%B2%AC/</guid>
+      <description></description>
+    </item>
     <item>
       <title>AI번역</title>
       <link>https://blog.devkuma.com/tags/ai%EB%B2%88%EC%97%AD/</link>
@@ -209,13 +244,6 @@
       <link>https://blog.devkuma.com/tags/%EB%A7%88%EC%9D%B8%ED%81%AC%EB%9E%98%ED%94%84%ED%8A%B8/</link>
       <pubDate>Sat, 01 Jul 2023 01:44:00 +0900</pubDate>
       <guid>https://blog.devkuma.com/tags/%EB%A7%88%EC%9D%B8%ED%81%AC%EB%9E%98%ED%94%84%ED%8A%B8/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>개발자</title>
-      <link>https://blog.devkuma.com/tags/%EA%B0%9C%EB%B0%9C%EC%9E%90/</link>
-      <pubDate>Sat, 01 Jul 2023 00:09:00 +0900</pubDate>
-      <guid>https://blog.devkuma.com/tags/%EA%B0%9C%EB%B0%9C%EC%9E%90/</guid>
       <description></description>
     </item>
     <item>
